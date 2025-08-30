@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Додайте собі в проект з такою назвою для здачі дз
+pull-requests.txt
