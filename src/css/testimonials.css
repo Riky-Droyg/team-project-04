@@ -1,0 +1,127 @@
+.testimonials {
+  background-color: #e0cbb4;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.testimonials .container {
+  padding: 0 16px;
+}
+.testimonials-title {
+  font-family: 'Aboreto', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #0b0803;
+  margin-bottom: 24px;
+}
+.testimonials-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.testimonials-card-point {
+  border: 1px solid rgba(11, 8, 3, 0.15);
+  border-radius: 32px;
+  background-color: #c29d84;
+  padding: 32px;
+  width: 100%;
+  height: auto;
+}
+.testimonials-stars-list {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 24px;
+}
+.icon-star-svg.icon-star-svg-off {
+  fill: none;
+  stroke: #0b0803;
+}
+.testimonials-quote {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0b0803;
+  margin-bottom: 24px;
+}
+.testimonials-visitor-name {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0803;
+}
+@media screen and (min-width: 768px) {
+  /* .testimonials {
+    background-color: #e0cbb4;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  } */
+  .testimonials .container {
+    padding: 0 32px;
+  }
+  /* .testimonials-title {
+  } */
+  .testimonials-card-list {
+    justify-content: space-between;
+    display: flex;
+    align-items: stretch;
+  }
+  .testimonials-card-point {
+  }
+  /* .icon-star-svg.icon-star-svg-off {
+  fill: none;
+  stroke: #0b0803;
+} */
+  .testimonials-card-point {
+    /* width: 340px;
+    height: auto; */
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid rgba(11, 8, 3, 0.15);
+    border-radius: 32px;
+    padding: 32px;
+    width: 340px;
+    min-height: 253px;
+    height: 100%;
+  }
+  .testimonials-quote {
+    margin-bottom: 0;
+  }
+  .testimonials-visitor-name {
+    margin-top: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .testimonials {
+    min-width: 1440px;
+  }
+  .testimonials .container {
+    padding: 0 64px;
+  }
+  .testimonials-title {
+    font-size: 48px;
+  }
+  .testimonials-card-list {
+    justify-content: center;
+  }
+  .testimonials-card-point {
+    width: 310px;
+    min-height: 303px;
+  }
+  .testimonials-quote {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0b0803;
+    margin-bottom: 0;
+  }
+}
