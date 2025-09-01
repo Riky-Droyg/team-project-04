@@ -17,7 +17,7 @@ footer {
 }
 
 /* плашка футера */
-.footer-logo-socials-nav {
+.footer_top {
   background: #c29d84;
   display: flex;
   align-items: center;
@@ -35,13 +35,13 @@ footer {
 }
 
 @media (min-width: 1158px) {
-  .footer-logo-socials-nav {
+  .footer_top {
     flex-direction: row;
   }
 }
 
 /* порядок лого+соціальні мережі */
-.footer-logo-socials {
+.footer_top_left {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,33 +50,33 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .footer-logo-socials {
+  .footer_top_left {
     flex-direction: row;
   }
 }
 
 /* лого футера*/
-.icon-footer-logo {
+.icon_footer_logo {
   width: 147px;
   height: 85px;
 }
 
 @media (min-width: 375px) {
-  .icon-footer-logo {
+  .icon_footer_logo {
     width: 147px;
     height: 85px;
   }
 }
 
 @media (min-width: 768px) {
-  .icon-footer-logo {
+  .icon_footer_logo {
     width: 64px;
     height: 36px;
   }
 }
 
 /* порядок соціальних мереж */
-.footer-socials-list {
+.footer_socials {
   display: flex;
   gap: 12px;
   padding: 0;
@@ -84,19 +84,19 @@ footer {
 }
 
 /* розмір іконок соціальних мереж */
-.footer-sociial {
+.footer_sociial_item {
   width: 32px;
   height: 32px;
 }
 
 @media (min-width: 768px) {
-  .footer-sociial {
+  .footer_sociial {
     width: 24px;
     height: 24px;
   }
 }
 
-.footer-social-link {
+.footer_social_link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,40 +104,40 @@ footer {
   height: 100%;
 }
 
-.icon-footer-facebook {
+.icon_footer_facebook {
   width: 28px;
   height: 27px;
 }
 
-.icon-footer-instagram {
+.icon_footer_instagram {
   width: 24px;
   height: 25px;
 }
 
-.icon-footer-x {
+.icon_footer_x {
   width: 24px;
   height: 23px;
 }
 
 @media (min-width: 768px) {
-  .icon-footer-facebook {
+  .icon_footer_facebook {
     width: 20px;
     height: 21px;
   }
 
-  .icon-footer-instagram {
+  .icon_footer_instagram {
     width: 18px;
     height: 19px;
   }
 
-  .icon-footer-x {
+  .icon_footer_x {
     width: 18px;
     height: 17px;
   }
 }
 
 /* навігація футера */
-.footer-nav-list {
+.footer_nav {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -147,12 +147,12 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .footer-nav-list {
+  .footer_nav {
     flex-direction: row;
   }
 }
 
-.footer-nav-link {
+.footer_nav_link {
   font-weight: 400;
   font-size: 16px;
 
@@ -162,13 +162,13 @@ footer {
 }
 
 /* інформація про захист прав споживача */
-.footer-license {
+.footer_bottom {
   display: flex;
   justify-content: center;
   margin-top: 32px;
 }
 
-.footer-license-text {
+.footer_license {
   font-weight: 400;
   font-size: 14px;
 
