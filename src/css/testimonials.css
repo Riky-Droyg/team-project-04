@@ -1,3 +1,30 @@
+/* .testimonials ul,
+.testimonials li,
+.testimonials h2,
+.testimonials div,
+.testimonials p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* ОБНУЛЕННЯ УДАЛИТИ ЯКЩО БУДУТЬ ЗАГАЛЬНІ */
+ul,
+ol,
+li p,
+h1,
+h2,
+h3,
+h4,
+h5,
+div {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* секція */
 .testimonials {
   background-color: #e0cbb4;
   padding-top: 64px;
@@ -74,6 +101,7 @@
     align-items: stretch;
   }
   .testimonials-card-point {
+    flex-basis: calc((100% - 24px) / 2);
   }
   /* .icon-star-svg.icon-star-svg-off {
   fill: none;
@@ -115,6 +143,7 @@
   .testimonials-card-point {
     width: 310px;
     min-height: 303px;
+    flex-basis: calc((100% - 24px * 3) / 4);
   }
   .testimonials-quote {
     font-family: 'Quicksand', sans-serif;
