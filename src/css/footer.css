@@ -17,7 +17,7 @@ footer {
 }
 
 /* плашка футера */
-.footer_top {
+.footer__top {
   background: #c29d84;
   display: flex;
   align-items: center;
@@ -32,16 +32,17 @@ footer {
   margin-left: auto;
   margin-right: auto;
   gap: 32px;
+  max-width: 100%;
 }
 
 @media (min-width: 1158px) {
-  .footer_top {
+  .footer__top {
     flex-direction: row;
   }
 }
 
 /* порядок лого+соціальні мережі */
-.footer_top_left {
+.footer__top-left {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,94 +51,86 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .footer_top_left {
+  .footer__top-left {
     flex-direction: row;
   }
 }
 
 /* лого футера*/
-.icon_footer_logo {
+.icon__footer-logo {
   width: 147px;
   height: 85px;
 }
 
 @media (min-width: 375px) {
-  .icon_footer_logo {
+  .icon__footer-logo {
     width: 147px;
     height: 85px;
   }
 }
 
 @media (min-width: 768px) {
-  .icon_footer_logo {
+  .icon__footer-logo {
     width: 64px;
     height: 36px;
   }
 }
 
 /* порядок соціальних мереж */
-.footer_socials {
+.footer__socials {
   display: flex;
+  align-items: center;
   gap: 12px;
   padding: 0;
   margin: 0;
 }
 
-/* розмір іконок соціальних мереж */
-.footer_sociial_item {
-  width: 32px;
-  height: 32px;
-}
-
-@media (min-width: 768px) {
-  .footer_sociial {
-    width: 24px;
-    height: 24px;
-  }
-}
-
-.footer_social_link {
+.footer__social-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
 }
 
-.icon_footer_facebook {
+.icon__footer-facebook {
   width: 28px;
   height: 27px;
 }
 
-.icon_footer_instagram {
+.icon__footer-instagram {
   width: 24px;
   height: 25px;
 }
 
-.icon_footer_x {
+.icon__footer-x {
   width: 24px;
   height: 23px;
 }
 
 @media (min-width: 768px) {
-  .icon_footer_facebook {
+  .icon__footer-facebook {
     width: 20px;
     height: 21px;
   }
 
-  .icon_footer_instagram {
+  .icon__footer-instagram {
     width: 18px;
     height: 19px;
   }
 
-  .icon_footer_x {
+  .icon__footer-x {
     width: 18px;
     height: 17px;
   }
 }
 
+.icon__footer-facebook:hover,
+.icon__footer-instagram:hover,
+.icon__footer-x:hover {
+  fill: #6f4e37;
+}
+
 /* навігація футера */
-.footer_nav {
+.footer__nav {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -147,28 +140,36 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .footer_nav {
+  .footer__nav {
     flex-direction: row;
   }
 }
 
-.footer_nav_link {
+.footer__nav-link {
   font-weight: 400;
   font-size: 16px;
 
   /* line-height: 24px; */
   line-height: 1.5;
   color: #0b0803;
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__nav-link:hover,
+.footer__nav-link:focus,
+.footer__nav-link.active {
+  opacity: 0.5;
 }
 
 /* інформація про захист прав споживача */
-.footer_bottom {
+.footer__bottom {
   display: flex;
   justify-content: center;
   margin-top: 32px;
 }
 
-.footer_license {
+.footer__license {
   font-weight: 400;
   font-size: 14px;
 
