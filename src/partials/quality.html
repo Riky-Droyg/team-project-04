@@ -1,7 +1,7 @@
 <section class="quality">
   <div class="container quality-container">
     <p class="quality-tagline">Quality</p>
-    <!-- class="quality-heading-text"> -->
+    <!-- class="quality-heading-text" -->
     <h2 class="quality-heading">Why CoffeeJoy Stands Out from the Rest</h2>
 
     <p class="quality-text">
@@ -15,13 +15,13 @@
   <div class="quality-pict">
     <ul class="quality-list">
       <li class="quality-item">
-        <picture class="pick">
+        <picture class="quality-pict-container">
           <!-- Версия для десктопа -->
           <source
             class="quality-photo"
             srcset="
-              ./img/quality/quality-desk-1.jpg    1x,
-              ./img/quality/quality-desk-1@2x.jpg 2x
+              ./img/quality/quality-desk-1.webp    1x,
+              ./img/quality/quality-desk-1@2x.webp 2x
             "
             media="(min-width: 1158px)"
             type="image/jpeg"
@@ -29,9 +29,10 @@
 
           <!-- Версия для планшета -->
           <source
+            class="quality-photo"
             srcset="
-              ./img/quality/quality-tabl-1.jpg    1x,
-              ./img/quality/quality-tabl-1@2x.jpg 2x
+              ./img/quality/quality-tabl-1.webp    1x,
+              ./img/quality/quality-tabl-1@2x.webp 2x
             "
             media="(min-width: 768px)"
             type="image/jpeg"
@@ -39,9 +40,10 @@
 
           <!-- Версия для мобильного -->
           <source
+            class="quality-photo"
             srcset="
-              ./img/quality/quality-mob-1.jpg    1x,
-              ./img/quality/quality-mob-1@2x.jpg 2x
+              ./img/quality/quality-mob-1.webp    1x,
+              ./img/quality/quality-mob-1@2x.webp 2x
             "
             media="(max-width: 767px)"
             type="image/jpeg"
@@ -50,22 +52,24 @@
           <!-- Запасной вариант -->
           <img
             class="pick"
-            src="./img/quality/quality-desk-1.jpg"
+            src="./img/quality/quality-desk-1.webp"
             alt="Fresh-Roasted Coffee"
             width="421"
             height="240"
           />
         </picture>
-        <h3>Fresh-Roasted Coffee for Every Taste</h3>
-        <p>Savor the rich flavors of our expertly sourced beans.</p>
+        <h3 class="quality-text-title">Fresh-Roasted Coffee for Every Taste</h3>
+        <p class="quality-text-description">
+          Savor the rich flavors of our expertly sourced beans.
+        </p>
       </li>
       <li class="quality-item">
-        <picture class="pick">
+        <picture class="quality-pict-container">
           <source
             class="quality-photo"
             srcset="
-              ../img/quality/quality-desk-2.jpg    1x,
-              ../img/quality/quality-desk-2@2x.jpg 2x
+              ../img/quality/quality-desk-2.webp    1x,
+              ../img/quality/quality-desk-2@2x.webp 2x
             "
             media="(min-width: 1158px)"
             type="image/jpeg"
@@ -74,9 +78,10 @@
           <!-- Версия для планшета (от 768px) -->
 
           <source
+            class="quality-photo"
             srcset="
-              ../img/quality/quality-tabl-2.jpg    1x,
-              ../img/quality/quality-tabl-2@2x.jpg 2x
+              ../img/quality/quality-tabl-2.webp    1x,
+              ../img/quality/quality-tabl-2@2x.webp 2x
             "
             media="(min-width: 768px)"
             type="image/jpeg"
@@ -84,9 +89,10 @@
 
           <!-- Версия для мобильного (до 375px) -->
           <source
+            class="quality-photo"
             srcset="
-              ../img/quality/quality-mob-2.jpg    1x,
-              ../img/quality/quality-mob-2@2x.jpg 2x
+              ../img/quality/quality-mob-2.webp    1x,
+              ../img/quality/quality-mob-2@2x.webp 2x
             "
             media="(max-width: 375px)"
             type="image/jpeg"
@@ -95,24 +101,27 @@
           <!--Запасной вариант (если <picture> не поддерживается) -->
           <img
             class="pick"
-            src="./img/quality/quality-desk-2.jpg"
+            src="./img/quality/quality-desk-2.webp"
             alt="Fresh-Roasted Coffee"
             width="340"
             height="194"
           />
         </picture>
-        <h3>Expert Baristas Crafting Your Perfect Brew</h3>
-        <p>
+        <h3 class="quality-text-title">
+          Expert Baristas Crafting Your Perfect Brew
+        </h3>
+        <p class="quality-text-description">
           Our baristas are passionate about coffee and skilled in their craft.
         </p>
       </li>
       <li class="quality-item">
-        <picture class="pick">
+        <picture class="quality-pict-container">
           <source
             class="quality-photo"
+            class="quality-photo"
             srcset="
-              ../img/quality/quality-desk-3.jpg    1x,
-              ../img/quality/quality-desk-3@2x.jpg 2x
+              ../img/quality/quality-desk-3.webp    1x,
+              ../img/quality/quality-desk-3@2x.webp 2x
             "
             media="(min-width: 1158px)"
             type="image/jpeg"
@@ -123,17 +132,18 @@
           <source
             class="quality-sours"
             srcset="
-              ../img/quality/quality-tabl-3.jpg    1x,
-              ../img/quality/quality-tabl-3@2x.jpg 2x
+              ../img/quality/quality-tabl-3.webp    1x,
+              ../img/quality/quality-tabl-3@2x.webp 2x
             "
             media="(min-width: 768px)"
             type="image/jpeg"
           />
           <!-- Версия для мобильного (до 767px) -->
           <source
+            class="quality-photo"
             srcset="
-              ../img/quality/quality-mob-3.jpg    1x,
-              ../img/quality/quality-mob-3@2x.jpg 2x
+              ../img/quality/quality-mob-3.webp    1x,
+              ../img/quality/quality-mob-3@2x.webp 2x
             "
             media="(max-width: 375px)"
             type="image/jpeg"
@@ -141,15 +151,17 @@
 
           <!-- Запасной вариант (если <picture> не поддерживается) -->
           <img
-            class="pick"
-            src="./img/quality/quality-desk-3.jpg"
+            class="pick pick-tablet"
+            src="./img/quality/quality-desk-3.webp"
             alt="Fresh-Roasted Coffee"
             width="288"
             height="164"
           />
         </picture>
-        <h3>Cozy Atmosphere</h3>
-        <p>
+        <h3 class="quality-text-title quality-text-title-centr">
+          Cozy Atmosphere
+        </h3>
+        <p class="quality-text-description quality-text-description-centr">
           We don't just serve coffee — we create a warm and welcoming space
           where every cup feels like home.
         </p>
