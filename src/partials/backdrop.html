@@ -1,0 +1,46 @@
+<div class="backdrop" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-icon" width="16" height="16">
+        <use href="/img/backdrop/icons-menu-modal.svg#icon-close-menu"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Welcome to the world of CoffeeJoy!</h2>
+    <p class="modal-descr">
+      Fresh brews, special offers, and cozy updates are coming your way.
+    </p>
+    <picture>
+      <source
+        media="(min-width: 1158px)"
+        srcset="
+          /img/backdrop/modal-greeting-picture-min.jpg    1x,
+          /img/backdrop/modal-greeting-picture@2x-min.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          /img/backdrop/modal-greeting-picture-tab-min.jpg    1x,
+          /img/backdrop/modal-greeting-picture-tab@2x-min.jpg 2x
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          /img/backdrop/modal-greeting-picture-mob-min.jpg    1x,
+          /img/backdrop/modal-greeting-picture-mob@2x-min.jpg 2x
+        "
+      />
+      <img
+        src="/img/backdrop/modal-greeting-picture-min.jpg"
+        alt="composition of items on the table in coffeeShop: flower, letter, cup of coffee, napkin, crouisane"
+        width="644"
+        height="374"
+        class="modal-greeting-picture"
+      />
+    </picture>
+    <button type="button" class="modal-low-btn" data-modal-close-secondary>
+      Close
+    </button>
+  </div>
+</div>
