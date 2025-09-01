@@ -1,0 +1,171 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h2,
+p {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.backdrop:not(.is-open) .modal {
+  transform: translate(-50%, -100%);
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  padding: 64px 16px;
+  width: 288px;
+  min-height: auto;
+  overflow: auto;
+  background-color: #e0cbb4;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border: none;
+  border-radius: 0;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+    transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: transparent;
+  border-radius: 0;
+opacity: 0.5;
+}
+.modal-close-btn:active {
+background-color: rgba(11, 8, 3, 0.1);
+border-radius: 50%; 
+opacity: 1;
+}
+.modal-close-icon {
+  fill: #0b0803;
+}
+.modal-title {
+  font-family: "Aboreto", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0b0803;
+  margin-bottom: 16px;
+  margin-left: auto;
+    margin-right: auto;
+  max-width: 256px;
+}
+.modal-descr {
+  max-width: 256px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #0b0803;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal-greeting-picture {
+  border-radius: 24px;
+  margin-bottom: 24px;
+  height: 200px;
+}
+.modal-low-btn {
+  display: block;
+ min-width: 256px;
+ margin: 0 auto;
+  height: 44px;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 24px;
+  box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15),
+    inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
+    inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+  background-color: #6f4e37;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-low-btn:hover,
+.modal-low-btn:focus {
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 704px;
+    padding: 64px 30px;
+  }
+  .modal-title {
+    font-size: 36px;
+    max-width: 502px;
+  }
+  .modal-descr {
+    margin-bottom: 48px;
+    max-width: 576px;
+  }
+  .modal-greeting-picture {
+    border-radius: 40px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+  }
+  .modal-low-btn {
+    min-width: 340px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .modal {
+    width: 866px;
+    padding: 64px;
+  }
+  .modal-title {
+    font-size: 48px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: fit-content;
+  }
+  .modal-descr {
+   max-width: fit-content;
+  }
+  .modal-low-btn {
+    min-width: 274px;
+  }
+}
