@@ -4,29 +4,29 @@
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.logo {
+.header__logo-icon {
   padding: 0;
 }
-.logo-header {
+.header__logo {
   padding-bottom: 17px;
   padding-top: 17px;
   padding-left: 16px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   min-height: 72px;
   justify-content: space-between;
 }
-.header-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
-.nav-list {
+.header__nav-list {
   display: none;
 }
-.menu-open-btn {
+.header__menu-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,20 +38,20 @@
   margin-right: 16px;
 }
 
-.menu-open-icon {
+.header__menu-btn-icon {
   fill: #2e2f42;
 }
 @media screen and (min-width: 375px) {
 }
 @media screen and (min-width: 768px) {
   /* Show nav links and hide menu button */
-  .logo-header {
+  .header__logo {
     padding-bottom: 17px;
     padding-top: 17px;
     padding-left: 32px;
   }
 
-  .header-nav {
+  .header__nav {
     display: flex;
     align-items: center;
     margin: 0;
@@ -59,22 +59,24 @@
     margin-right: 32px;
   }
 
-  .nav-list {
+  .header__nav-list {
     display: flex;
-    gap: 32px;
+    gap: 20px;
     list-style: none;
     align-items: center;
     justify-content: center;
-    padding: 6px 0;
     margin-top: 0;
     margin-bottom: 0;
   }
+  .header__nav-item {
+    padding: 6px;
+  }
 
-  .menu-open-btn {
+  .header__menu-btn {
     display: none;
   }
 
-  .nav-link {
+  .header__nav-link {
     color: #0b0803;
     font-weight: 400;
     font-size: 16px;
@@ -82,16 +84,16 @@
     opacity: 100%; /* normal state */
     text-decoration: none;
   }
-  .nav-link.inactive {
+  .header__nav-link--inactive {
     opacity: 20%;
   }
 
-  .nav-link:hover,
-  .nav-link:focus {
+  .header__nav-link:hover,
+  .header__nav-link:focus {
     opacity: 50%;
   }
 
-  .nav-link:active {
+  .header__nav-link:active {
     opacity: 70%;
   }
 }
@@ -101,15 +103,15 @@
 /* -------------------- */
 
 @media screen and (min-width: 1158px) {
-  .header-container {
+  .header__container {
     justify-content: space-between;
   }
 
-  .header-nav {
+  .header__nav {
     justify-content: space-between;
     padding: 0;
   }
 }
-.logo-header {
+.header__logo {
   padding: 17px 0;
 }
