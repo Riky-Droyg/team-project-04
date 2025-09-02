@@ -10,7 +10,7 @@
 } */
 
 /* ОБНУЛЕННЯ УДАЛИТИ ЯКЩО БУДУТЬ ЗАГАЛЬНІ */
-/* ul,
+ul,
 ol,
 li p,
 h1,
@@ -23,7 +23,7 @@ div {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 /* секція */
 .testimonials {
   background-color: #e0cbb4;
@@ -50,6 +50,7 @@ div {
 }
 .testimonials-card-point {
   border: 1px solid rgba(11, 8, 3, 0.15);
+
   border-radius: 32px;
   background-color: #c29d84;
   padding: 32px;
@@ -75,7 +76,6 @@ div {
   font-size: 18px;
   line-height: 1.5;
   color: #0b0803;
-  margin-bottom: 24px;
 }
 .testimonials-visitor-name {
   font-family: 'Quicksand', sans-serif;
@@ -83,6 +83,7 @@ div {
   font-size: 16px;
   line-height: 1.5;
   color: #0b0803;
+  margin-top: auto;
 }
 @media screen and (min-width: 768px) {
   /* .testimonials {
@@ -110,6 +111,7 @@ div {
   .testimonials-card-point {
     /* width: 340px;
     height: auto; */
+    max-height: 304px;
     display: flex;
     flex-direction: column;
 
@@ -122,9 +124,13 @@ div {
   }
   .testimonials-quote {
     margin-bottom: 0;
+    max-height: 151px;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .testimonials-visitor-name {
-    margin-top: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 }
 @media screen and (min-width: 1158px) {
