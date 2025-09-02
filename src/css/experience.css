@@ -27,13 +27,14 @@ button {
 }
 /* #endregion */
 .experience {
-  background-color: #E0CBB4;
+  background-color: #e0cbb4;
 }
 .experience .container {
   background-color: aqua;
   padding-top: 64px;
   padding-bottom: 64px;
 }
+
 .experience-title {
   font-weight: 400;
   font-size: 36px;
@@ -43,8 +44,7 @@ button {
 
   margin-bottom: 24px;
 }
-
-.experience p {
+.experience-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;

@@ -27,5 +27,28 @@ button {
 }
 /* #endregion */
 .subscribe .container {
-  background-color: rgb(75, 88, 88);
+  background-color: #e0cbb4;
+}
+.subscribe .container {
+  background-color: aqua;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.subscribe-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  text-align: center;
+
+  margin-bottom: 24px;
+}
+.subscribe-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+
+  margin-bottom: 32px;
 }
