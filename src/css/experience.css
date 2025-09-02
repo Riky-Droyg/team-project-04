@@ -26,10 +26,64 @@ button {
   cursor: pointer;
 }
 /* #endregion */
-
+.experience {
+  background-color: #E0CBB4;
+}
 .experience .container {
   background-color: aqua;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 .experience-title {
-  color: rgb(82, 82, 82);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  text-align: center;
+
+  margin-bottom: 24px;
+}
+
+.experience p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+
+  margin-bottom: 32px;
+}
+
+.pictures-galerie {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+  justify-content: center;
+
+  background-color: aliceblue;
+}
+
+.pictures-item {
+  border-radius: 32px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .pictures-galerie {
+    row-gap: 32px;
+    column-gap: 32px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1158px) {
+  .experience-title {
+    font-size: 48px;
+  }
+  .pictures-galerie {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    max-height: 948px;
+  }
 }
