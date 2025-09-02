@@ -12,7 +12,7 @@
 .welcome-top {
   display: flex;
   flex-direction: column;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .welcome-left,
@@ -104,7 +104,6 @@
   .welcome-top {
     flex-direction: row;
     gap: 32px;
-    padding-bottom: 32px;
   }
 
   .welcome-left,
@@ -137,7 +136,7 @@
 
   .welcome-top {
     gap: 40px;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
   }
 
   .welcome-left {
