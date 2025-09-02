@@ -1,9 +1,12 @@
 /* Покращення читабельності */
-ul {
+.footer__socials,
+.footer__menu {
   list-style-type: none;
 }
 
-a {
+.footer__logo-link,
+.footer__social-link,
+.footer__menu-link {
   text-decoration: none;
   color: currentColor;
 }
@@ -130,7 +133,7 @@ footer {
 }
 
 /* навігація футера */
-.footer__nav {
+.footer__menu {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -140,12 +143,12 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .footer__nav {
+  .footer__menu {
     flex-direction: row;
   }
 }
 
-.footer__nav-link {
+.footer__menu-link {
   font-weight: 400;
   font-size: 16px;
 
@@ -156,9 +159,9 @@ footer {
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__nav-link:hover,
-.footer__nav-link:focus,
-.footer__nav-link.active {
+.footer__menu-link:hover,
+.footer__menu-link:focus,
+.footer__menu-link.active {
   opacity: 0.5;
 }
 
