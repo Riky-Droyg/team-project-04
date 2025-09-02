@@ -26,7 +26,7 @@ button {
   cursor: pointer;
 }
 /* #endregion */
-.subscribe .container {
+.subscribe {
   background-color: #e0cbb4;
 }
 .subscribe .container {
@@ -51,4 +51,8 @@ button {
   text-align: center;
 
   margin-bottom: 32px;
+}
+
+.form-text-pictures {
+background-color: #ffffff;
 }
