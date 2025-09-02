@@ -10,7 +10,7 @@
 } */
 
 /* ОБНУЛЕННЯ УДАЛИТИ ЯКЩО БУДУТЬ ЗАГАЛЬНІ */
-ul,
+/* ul,
 ol,
 li p,
 h1,
@@ -23,7 +23,7 @@ div {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 /* секція */
 .testimonials {
   background-color: #e0cbb4;
@@ -129,7 +129,7 @@ div {
 }
 @media screen and (min-width: 1158px) {
   .testimonials {
-    min-width: 1440px;
+    min-width: 1158px;
   }
   .testimonials .container {
     padding: 0 64px;
