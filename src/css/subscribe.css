@@ -33,9 +33,9 @@ button {
   background-color: aqua;
   padding-top: 64px;
   padding-bottom: 64px;
-  
+
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: start;
 }
 
@@ -57,6 +57,10 @@ button {
   margin-bottom: 32px;
 }
 
-.form-text-pictures {
-background-color: #ffffff;
+.form-text {
+  background-color: #ffffff;
+}
+
+.subscribe .pictures-item {
+  border-radius: 40px;
 }
