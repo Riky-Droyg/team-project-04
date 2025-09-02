@@ -1,15 +1,4 @@
 /* Покращення читабельності */
-.footer__socials,
-.footer__menu {
-  list-style-type: none;
-}
-
-.footer__logo-link,
-.footer__social-link,
-.footer__menu-link {
-  text-decoration: none;
-  color: currentColor;
-}
 
 footer {
   font-family: 'Quicksand', sans-serif;
