@@ -2,15 +2,12 @@
   background-color: #e0cbb4;
 }
 
-.container {
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-
 .location-container {
   max-width: 375px;
   padding-left: 16px;
   padding-right: 16px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .text-container-location {
