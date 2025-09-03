@@ -1,7 +1,3 @@
- .container {
-     max-width: 375px;
-     padding: 0 16px;
- }
 
 
 .quality {
@@ -9,7 +5,7 @@
     padding: 64px 0;
  }
 
-.quality-container {
+.quality__container {
     
     display: flex;
     flex-direction: column;
@@ -20,7 +16,7 @@
     margin: 0 auto;
 }
 
-.quality-tagline {
+.quality__tagline {
 
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
@@ -31,27 +27,27 @@
        
 }
 
-.quality-list {
+.quality__list {
     list-style-type: none;
     display: flex;
     align-items: center;
     flex-direction: column; 
     gap: 24px;
     width: 100%;
-    max-width: 288px;
+    max-width: 288px;    
     margin: 0 auto;
     padding-left: 0;
 
 }
 
-.quality-item {
+.quality__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.pick {
+.quality__image {
     border-radius: 32px;
     width: 100%;
     height: auto;
@@ -59,7 +55,7 @@
 }
 
 
-.quality-heading {
+.quality__heading {
     font-family: "Aboreto", sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -67,15 +63,10 @@
     letter-spacing: -0.01em;
     text-align: center;
     color: #0b0803;
-    width: 288px;
 } 
 
-.quality-text-containe {
-    width: 100%;
-    max-width: 288px;
-}
 
-.quality-text {
+.quality__text {
 
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
@@ -87,7 +78,7 @@
     margin-bottom: 32px;
 }
 
-.quality-text-title {
+.quality__title {
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -99,7 +90,7 @@
 }
 
 
-.quality-text-description {
+.quality__description {
 
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
@@ -114,62 +105,53 @@
 
 /* tablet */
 @media (min-width: 768px) {
-.container {
-    max-width: 768px;
-    padding: 0 32px;
-        
-    }
 
-.quality-container {
+.quality__container {
     max-width: 704px;
     padding: 0;
 }
-    .quality-heading {
+.quality__heading{
         
     width: 452px;
     margin-top: 16px;
     margin-bottom: 24px;
 }
         
-.quality-text {
-    max-width: 704px;
-    margin: 0 auto 40px;
+.quality__text {
+    margin: 0 auto 32px;
 }
+        
     
-    
-.quality-list {
+.quality__list {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
     max-width: 704px;
-        
+       
 }
 
-.quality-item {
+.quality__item {
     flex: 1 1 calc(50% - 24px);
     max-width: 340px;
         
 }
 
-.pick {
-    max-width: 704px;
-  
-}
 
-.pick-tablet {
+.quality__tablet {
+    /*  */    
     width: 704px;
     height: 401px;
 
 }
 
-.quality-text-description {
+.quality__description {
     width: 340px;
     margin: 0;
 
 }
 
-.quality-text-description-centr {
+.quality__description--center {
     align-items: center;
     width: 440px;
 }
@@ -181,48 +163,38 @@
 /* desctop */
 @media (min-width: 1158px) {
 
-.container {
+.quality__container {
+
     max-width: 1440px;
-    padding: 0 64px;
-
-    }
-
-.quality-container {
-
-    max-width: 1032px;
     padding: 0;
 }
 
 
- .quality-pict {
+ .quality__gallery {
     display: flex;
     align-items: center;
 
 
  }
 
-.quality-list {
+.quality__list {
     flex-wrap: nowrap;
-    gap: 32px;
-    max-width: 1032px;
+    gap: 24px;
+    max-width: 1158px;
 
  }
-.quality-item {
+.quality__item {
     flex: 1 1 0;
     min-width: 421px;
 }
 
 
-.pick-tablet {
+.quality__tablet {
+    /* розміри за макетом  */
     width: 421px;
     height: 240px;
 }
 
- .pick {
-    max-width: 421px;
-    height: 240px;
-     
-    }
 
 
 
