@@ -31,21 +31,23 @@ button {
   background-color: #e0cbb4;
 }
 .subscribe .container {
-  background-color: aqua;
+  background-color: rgb(104, 100, 161);
   padding-top: 64px;
   padding-bottom: 64px;
 
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
 }
 
 .form-text {
   background-color: #ffffff;
 
-  margin-bottom: 32px;
   display: flex;
   flex-direction: column;
   align-items: start;
+
+  margin-bottom: 32px;
 }
 
 .subscribe-title {
@@ -131,7 +133,6 @@ button {
 }
 
 .subscribe .picture-div {
-  flex-basis: 100%;
   background-color: #ececec;
 }
 .subscribe .pictures-item {
@@ -165,15 +166,13 @@ button {
 /* Desktop */
 @media screen and (min-width: 1158px) {
   .subscribe .container {
-    display: flex;
-    align-items: center;
-    gap: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  width: 100%;
   }
   .subscribe-title {
     max-width: 400px;
-  }
-  .email-input {
-    min-width: 200px;
   }
   .form-text {
     flex-basis: calc((100% - 32px) / 2);
