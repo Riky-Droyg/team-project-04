@@ -33,9 +33,12 @@ button {
   background-color: aqua;
   padding-top: 64px;
   padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .experience-title {
+  font-family: Aboreto, sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 120%;
@@ -44,6 +47,7 @@ button {
 
   margin-bottom: 24px;
 }
+
 .experience-text {
   font-weight: 400;
   font-size: 18px;
@@ -63,7 +67,11 @@ button {
   background-color: rgb(255, 255, 255);
 }
 
+.experience .pictures-list {
+  flex: 1 1 100%; /* мобільна версія — 100% ширини */
+}
 .experience .pictures-item {
+  width: 100%; /* щоб img тягнулося по ширині блоку */
   border-radius: 32px;
 }
 
