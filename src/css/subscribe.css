@@ -88,8 +88,6 @@ button {
   line-height: 2;
   letter-spacing: 0.04em;
   color: rgba(11, 8, 3, 1);
-
-  margin-bottom: 24px;
 }
 .email-input:focus {
   outline: none; /* прибирає стандартний outline */
@@ -100,6 +98,34 @@ button {
 }
 .email-input:focus::placeholder {
   color: transparent; /* приховає текст плейсхолдера */
+}
+
+/* стилізація інпута при валідному значенні */
+.email-input:not(:placeholder-shown):invalid {
+  border-color: #495e3b;
+}
+/* стилізація інпута при не валідному значенні */
+.email-input:not(:placeholder-shown):invalid {
+  border-color: #7f1c1c;
+}
+
+.text-valid,
+.text-invalid {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: transparent;
+
+  margin-bottom: 24px;
+}
+
+/* стилізація інформаційного текста при валідному значенні в інпуті */
+.inp:not(:placeholder-shown):valid ~ .text-valid {
+  color: #495e3b;
+}
+/* стилізація інформаційного текста при не валідному значенні в інпуті */
+.email-input:not(:placeholder-shown):invalid ~ .text-invalid {
+  color: #7f1c1c;
 }
 
 .subscribe-button {
@@ -118,8 +144,17 @@ button {
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
+  box-shadow: 0 1px 2px 0 var(--opacity-neutral-darkest-5),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px var(--opacity-neutral-darkest-15),
+    inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
+    inset 0 32px 24px 0 var(--opacity-white-5);
 
   margin-bottom: 16px;
+}
+.subscribe-button:focus,
+.subscribe-button:hover {
+  opacity: 50%;
 }
 
 .icon-svg {
