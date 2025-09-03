@@ -39,6 +39,11 @@ button {
   align-items: start;
 }
 
+.form-text {
+  background-color: #ffffff;
+  margin-bottom: 32px;
+}
+
 .subscribe-title {
   font-family: Aboreto, sans-serif;
   font-weight: 400;
@@ -60,14 +65,28 @@ button {
   margin-bottom: 32px;
 }
 
-.form-text {
-  background-color: #ffffff;
+.email-form {
+}
+
+.email-input {
+  margin-bottom: 24px;
+}
+
+.subscribe-button {
+  margin-bottom: 16px;
+}
+
+.subscribe-by_clicking {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: left;
+  color: #0b0803;
 }
 
 .subscribe .pictures-item {
   border-radius: 40px;
 }
-
 
 /* Mobile */
 @media screen and (max-width: 375px) {
