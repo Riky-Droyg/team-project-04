@@ -31,7 +31,6 @@ button {
   background-color: #e0cbb4;
 }
 .subscribe .container {
-  background-color: rgb(104, 100, 161);
   padding-top: 64px;
   padding-bottom: 64px;
 
@@ -41,8 +40,6 @@ button {
 }
 
 .form-text {
-  background-color: #ffffff;
-
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -75,8 +72,6 @@ button {
   width: 100%;
   display: flex;
   flex-direction: column;
-
-  background-color: aquamarine;
 }
 
 .email-input {
@@ -133,7 +128,6 @@ button {
 }
 
 .subscribe .picture-div {
-  background-color: #ececec;
 }
 .subscribe .pictures-item {
   width: 100%;
@@ -166,13 +160,14 @@ button {
 /* Desktop */
 @media screen and (min-width: 1158px) {
   .subscribe .container {
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
   }
   .subscribe-title {
-    max-width: 400px;
+    font-size: 48px;
   }
   .form-text {
     flex-basis: calc((100% - 32px) / 2);
