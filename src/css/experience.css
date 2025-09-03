@@ -27,12 +27,10 @@ button {
 }
 /* #endregion */
 
-
 .experience {
   background-color: #e0cbb4;
 }
 .experience .container {
-  background-color: aqua;
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -47,7 +45,6 @@ button {
   color: #0b0803;
 
   margin-bottom: 24px;
-  background-color: aliceblue;
 }
 
 .experience-text {
@@ -58,24 +55,19 @@ button {
   color: #0b0803;
 
   margin-bottom: 32px;
-  background-color: aliceblue;
 }
 
 .pictures-galerie {
   display: flex;
   flex-wrap: wrap;
   row-gap: 24px;
-  column-gap: 24px;
-  justify-content: center;
-
-  background-color: rgb(255, 255, 255);
 }
 
 .experience .pictures-list {
-  flex: 1 1 100%; /* мобільна версія — 100% ширини */
+  flex-basis: 100%;
 }
 .experience .pictures-item {
-  width: 100%; /* щоб img тягнулося по ширині блоку */
+  width: 100%;
   border-radius: 32px;
 }
 
@@ -94,10 +86,10 @@ button {
     column-gap: 32px;
   }
   .experience .pictures-list {
-    flex: none; /* мобільна версія — 100% ширини */
+    flex-basis: calc((100% - 32px) / 2);
   }
-  .experience .pictures-item {
-    border-radius: 32px;
+  .experience .pictures-list:last-child {
+    flex-basis: 100%;
   }
 }
 
@@ -108,8 +100,15 @@ button {
   }
   .pictures-galerie {
     display: flex;
-    justify-content: start;
     flex-direction: column;
+
     max-height: 948px;
+  }
+  .experience .pictures-list {
+    width: calc((100% - 64px) / 3);
+    flex-basis: calc((100% - 64px) / 3);
+  }
+  .experience .pictures-list:last-child {
+    flex-basis: calc((100% - 64px) / 3);
   }
 }

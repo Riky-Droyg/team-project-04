@@ -134,7 +134,7 @@ button {
   flex: 1 1 100%; /* мобільна версія — 100% ширини */
 }
 .subscribe .pictures-item {
-  width: 100%; /* щоб img тягнулося по ширині блоку */
+  max-width: 100%; /* щоб img тягнулося по ширині блоку */
   border-radius: 40px;
 }
 
@@ -163,4 +163,14 @@ button {
 
 /* Desktop */
 @media screen and (min-width: 1158px) {
+  .subscribe .container {
+    display: flex;
+    gap: 32px;
+  }
+  .form-text {
+    min-width: 640px;
+  }
+  .subscribe picture {
+    max-width: 640px;
+  }
 }
