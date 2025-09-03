@@ -131,10 +131,11 @@ button {
 }
 
 .subscribe picture {
-  flex: 1 1 100%; /* мобільна версія — 100% ширини */
+  flex-basis: 100%;
+  background-color: #ececec;
 }
 .subscribe .pictures-item {
-  max-width: 100%; /* щоб img тягнулося по ширині блоку */
+  width: 100%;
   border-radius: 40px;
 }
 
