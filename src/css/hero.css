@@ -74,7 +74,6 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
             url(../img/hero/herotab.jpg);
         justify-content: flex-start;
-        max-width: 768px;
         min-height: 900px;
     }
 
