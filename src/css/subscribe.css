@@ -130,7 +130,7 @@ button {
   color: #0b0803;
 }
 
-.subscribe picture {
+.subscribe .picture-div {
   flex-basis: 100%;
   background-color: #ececec;
 }
@@ -155,7 +155,7 @@ button {
     gap: 24px;
   }
   .email-input {
-    width: 340px;
+    min-width: 340px;
   }
   .subscribe-button {
     width: 158px;
@@ -166,12 +166,19 @@ button {
 @media screen and (min-width: 1158px) {
   .subscribe .container {
     display: flex;
+    align-items: center;
     gap: 32px;
   }
-  .form-text {
-    min-width: 640px;
+  .subscribe-title {
+    max-width: 400px;
   }
-  .subscribe picture {
-    max-width: 640px;
+  .email-input {
+    min-width: 200px;
+  }
+  .form-text {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+  .subscribe .picture-div {
+    flex-basis: calc((100% - 32px) / 2);
   }
 }

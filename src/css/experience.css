@@ -59,12 +59,13 @@ button {
 
 .pictures-galerie {
   display: flex;
-  flex-wrap: wrap;
-  row-gap: 24px;
+  flex-direction: column;
+  width: 100%;
+  gap: 24px;
 }
 
 .experience .pictures-list {
-  flex-basis: 100%;
+  width: 100%;
 }
 .experience .pictures-item {
   width: 100%;
@@ -82,14 +83,15 @@ button {
 /* Tablet */
 @media screen and (min-width: 768px) {
   .pictures-galerie {
-    row-gap: 32px;
-    column-gap: 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
   }
   .experience .pictures-list {
-    flex-basis: calc((100% - 32px) / 2);
+    width: calc((100% - 32px) / 2);
   }
   .experience .pictures-list:last-child {
-    flex-basis: 100%;
+    width: 100%;
   }
 }
 
@@ -99,16 +101,12 @@ button {
     font-size: 48px;
   }
   .pictures-galerie {
-    display: flex;
     flex-direction: column;
-
-    max-height: 948px;
+    width: 100%;
+    aspect-ratio: 1.37;
   }
-  .experience .pictures-list {
-    width: calc((100% - 64px) / 3);
-    flex-basis: calc((100% - 64px) / 3);
-  }
+  .experience .pictures-list,
   .experience .pictures-list:last-child {
-    flex-basis: calc((100% - 64px) / 3);
+    width: calc((100% - 64px) / 3);
   }
 }
