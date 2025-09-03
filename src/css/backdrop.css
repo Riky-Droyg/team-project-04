@@ -32,7 +32,7 @@
   background-color: #e0cbb4;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-btn {
+.modal__close-btn {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -48,21 +48,21 @@
   opacity: 1;
     transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-btn:hover,
-.modal-close-btn:focus {
+.modal__close-btn:hover,
+.modal__close-btn:focus {
   background-color: transparent;
   border-radius: 0;
 opacity: 0.5;
 }
-.modal-close-btn:active {
+.modal__close-btn:active {
 background-color: rgba(11, 8, 3, 0.1);
 border-radius: 50%; 
 opacity: 1;
 }
-.modal-close-icon {
+.modal__close-icon {
   fill: #0b0803;
 }
-.modal-title {
+.modal__title {
   font-family: "Aboreto", sans-serif;
   font-weight: 400;
   font-size: 32px;
@@ -76,7 +76,7 @@ opacity: 1;
     margin-right: auto;
   max-width: 256px;
 }
-.modal-descr {
+.modal__descr {
   max-width: 256px;
   font-size: 18px;
   line-height: 1.5;
@@ -86,12 +86,12 @@ opacity: 1;
   margin-left: auto;
   margin-right: auto;
 }
-.modal-greeting-picture {
+.modal__greeting-picture {
   border-radius: 24px;
   margin-bottom: 24px;
   height: 200px;
 }
-.modal-low-btn {
+.modal__low-btn {
   display: block;
  min-width: 256px;
  margin: 0 auto;
@@ -111,8 +111,8 @@ opacity: 1;
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-low-btn:hover,
-.modal-low-btn:focus {
+.modal__low-btn:hover,
+.modal__low-btn:focus {
   opacity: 0.5;
 }
 @media screen and (min-width: 768px) {
@@ -120,22 +120,22 @@ opacity: 1;
     width: 704px;
     padding: 64px 30px;
   }
-  .modal-title {
+  .modal__title {
     font-size: 36px;
     max-width: 502px;
   }
-  .modal-descr {
+  .modal__descr {
     margin-bottom: 48px;
     max-width: 576px;
   }
-  .modal-greeting-picture {
+  .modal__greeting-picture {
     border-radius: 40px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
   }
-  .modal-low-btn {
+  .modal__low-btn {
     min-width: 340px;
   }
 }
@@ -144,16 +144,16 @@ opacity: 1;
     width: 866px;
     padding: 64px;
   }
-  .modal-title {
+  .modal__title {
     font-size: 48px;
     margin-left: 0;
     margin-right: 0;
     max-width: fit-content;
   }
-  .modal-descr {
+  .modal__descr {
    max-width: fit-content;
   }
-  .modal-low-btn {
+  .modal__low-btn {
     min-width: 274px;
   }
 }
