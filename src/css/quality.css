@@ -128,7 +128,7 @@
     justify-content: center;
     gap: 24px;
     max-width: 704px;
-       
+    /* max-width: 100%; */
 }
 
 .quality__item {
@@ -181,11 +181,12 @@
     flex-wrap: nowrap;
     gap: 24px;
     max-width: 1158px;
+    align-items: flex-start;
 
  }
 .quality__item {
     flex: 1 1 0;
-    min-width: 421px;
+    min-width: 36%;
 }
 
 
@@ -196,7 +197,15 @@
 }
 
 
-
+.quality__heading {
+    width: 768px;
+    padding: 0 64px;
+}
+               
+.quality__description {
+    width: 421px;
+    margin: 0;
+}
 
 
 
