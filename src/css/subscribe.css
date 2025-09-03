@@ -40,11 +40,13 @@ button {
 }
 
 .subscribe-title {
+  font-family: Aboreto, sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 120%;
   letter-spacing: -0.01em;
   text-align: left;
+  color: #0b0803;
 
   margin-bottom: 24px;
 }
@@ -53,6 +55,7 @@ button {
   font-size: 18px;
   line-height: 150%;
   text-align: left;
+  color: #0b0803;
 
   margin-bottom: 32px;
 }
@@ -63,4 +66,13 @@ button {
 
 .subscribe .pictures-item {
   border-radius: 40px;
+}
+
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+  .subscribe .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

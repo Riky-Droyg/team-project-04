@@ -33,8 +33,6 @@ button {
   background-color: aqua;
   padding-top: 64px;
   padding-bottom: 64px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .experience-title {
@@ -44,8 +42,10 @@ button {
   line-height: 120%;
   letter-spacing: -0.01em;
   text-align: center;
+  color: #0b0803;
 
   margin-bottom: 24px;
+  background-color: aliceblue;
 }
 
 .experience-text {
@@ -53,8 +53,10 @@ button {
   font-size: 18px;
   line-height: 150%;
   text-align: center;
+  color: #0b0803;
 
   margin-bottom: 32px;
+  background-color: aliceblue;
 }
 
 .pictures-galerie {
@@ -75,11 +77,25 @@ button {
   border-radius: 32px;
 }
 
+/* Mobile */
+@media screen and (max-width: 375px) {
+  .experience .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .pictures-galerie {
     row-gap: 32px;
     column-gap: 32px;
+  }
+  .experience .pictures-list {
+    flex: none; /* мобільна версія — 100% ширини */
+  }
+  .experience .pictures-item {
+    border-radius: 32px;
   }
 }
 
