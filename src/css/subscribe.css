@@ -99,6 +99,7 @@ button {
 
 /* стилізація інпута при валідному значенні */
 .email-input:not(:placeholder-shown):invalid {
+  color: #495e3b;
   border-color: #495e3b;
 }
 /* стилізація інпута при не валідному значенні */
