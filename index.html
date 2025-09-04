@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@300..700&display=swap"
     rel="stylesheet">
   <script type="module" crossorigin src="/team-project-04/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/team-project-04/assets/index-B6y_LMr6.css">
+  <link rel="stylesheet" crossorigin href="/team-project-04/assets/index-nNhnd6ww.css">
 </head>
 
 <body>
@@ -70,7 +70,52 @@
     <!-- Loads the specified .html file -->
     <section class="hero">hero</section>
 
-    <section class="welcome">welcome</section>
+    <section class="welcome">
+  <div class="container welcome-container">
+    <div class="welcome-top">
+      <div class="welcome-left">
+        <p class="welcome-intro">Welcome</p>
+        <h2 class="welcome-title">Our Journey: Passion for Quality Coffee</h2>
+      </div>
+      <div class="welcome-right">
+        <p class="welcome-description">
+          At CoffeeJoy, we believe that every cup tells a story. Our mission is
+          to bring you the finest coffee experiences, crafted with care and
+          dedication. We are committed to sourcing high-quality beans and
+          roasting them to perfection, ensuring each sip is a delight.
+        </p>
+        <a href="./location.html" class="btn-find-location">
+          Find location
+          <svg width="20" height="20" class="find-location">
+            <use href="/team-project-04/assets/Find%20location-BYC0BiK2.svg#icon-icon"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="container-img welcome-image">
+      <picture>
+        <source
+          media="(min-width: 1158px)"
+          srcset="../img/welcome/welcome-desk-min.jpg 1x, ../img/welcome/welcome-desk@2x-min.jpg 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="../img/welcome/welcome-tab-min.jpg 1x, ../img/welcome/welcome-tab@2x-min.jpg 2x"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="../img/welcome/welcome-mobile-min.jpg 1x, ../img/welcome/welcome-mobile@2x-min.jpg 2x"
+        />
+        <img
+          src="../img/welcome/welcome-desk-min.jpg"
+          width="1312"
+          alt="The barista brews coffee"
+          class="welcome-img"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
 
     <section class="quality">quality</section>
 
