@@ -1,29 +1,4 @@
-/* .testimonials ul,
-.testimonials li,
-.testimonials h2,
-.testimonials div,
-.testimonials p {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 
-/* ОБНУЛЕННЯ УДАЛИТИ ЯКЩО БУДУТЬ ЗАГАЛЬНІ */
-ul,
-ol,
-li p,
-h1,
-h2,
-h3,
-h4,
-h5,
-div {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 /* секція */
 .testimonials {
   background-color: #e0cbb4;
@@ -141,6 +116,7 @@ div {
     padding: 0 64px;
   }
   .testimonials-title {
+    max-width: 400px;
     font-size: 48px;
   }
   .testimonials-card-list {
