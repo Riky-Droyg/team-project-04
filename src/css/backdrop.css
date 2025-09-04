@@ -143,7 +143,7 @@ opacity: 1;
     min-width: 340px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
   .backdrop {
     padding: 0 64px;
   }
