@@ -139,22 +139,32 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 12px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
-  box-shadow: 0 1px 2px 0 var(--opacity-neutral-darkest-5),
-    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2),
-    inset 0 0 0 1px var(--opacity-neutral-darkest-15),
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15),
     inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
-    inset 0 32px 24px 0 var(--opacity-white-5);
+    inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
 
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
 }
 .subscribe-button:focus,
 .subscribe-button:hover {
   opacity: 50%;
+}
+.subscribe-button:active {
+  box-shadow: none;
+  opacity: 100%;
+}
+
+.svg-place {
+  width: 24px;
+  height: 24px;
 }
 
 .icon-svg {
