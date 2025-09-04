@@ -2,13 +2,13 @@
 .container {
   width: 100%;
   margin-inline: auto;
+  padding: 0 16px; /* внутрішні поля зліва/справа */
 }
 
 /* з 375px макет стає адаптивним */
 @media (min-width: 375px) {
   .container {
     max-width: 375px;
-    padding: 0 16px; /* внутрішні поля зліва/справа */
   }
 }
 
