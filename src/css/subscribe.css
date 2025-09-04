@@ -27,7 +27,6 @@ button {
 }
 /* #endregion */
 
-
 .subscribe .container {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -104,6 +103,7 @@ button {
 }
 /* стилізація інпута при не валідному значенні */
 .email-input:not(:placeholder-shown):invalid {
+  color: #7f1c1c;
   border-color: #7f1c1c;
 }
 
