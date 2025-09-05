@@ -59,6 +59,7 @@
   line-height: 2;
   letter-spacing: 0.04em;
   color: rgba(11, 8, 3, 1);
+  margin-bottom: 24px;
 }
 
 .subscribe__input:focus {
@@ -75,17 +76,29 @@
 
 /* helper text (спочатку прихований) */
 .subscribe__error {
+  display: none;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: transparent;
-  margin-bottom: 24px;
+  color: black;
+  /* margin-bottom: 24px; */
 }
 
 /* валідний/невалідний стани */
 .subscribe__input:not(:placeholder-shown):valid {
-  color: #0b0803;
+  color: #495e3b;
   border-color: #495e3b;
+}
+
+/* .subscribe__input:not(:placeholder-shown):invalid {
+  color: #7f1c1c;
+  border-color: #7f1c1c;
+} */
+
+.subscribe__input:not(:placeholder-shown):invalid ~ .subscribe__error {
+  display: block;
+  color: #7f1c1c;
+  border-color: #7f1c1c;
 }
 
 .subscribe__input:not(:placeholder-shown):invalid {
@@ -150,6 +163,7 @@
   line-height: 150%;
   text-align: left;
   color: #0b0803;
+  padding-top: 16px;
 }
 
 .subscribe__image {
@@ -181,6 +195,10 @@
   .subscribe__button {
     width: 158px;
   }
+  .subscribe__input,
+  .subscribe__button {
+    margin: 0;
+  }
 }
 
 /* Desktop */
@@ -196,7 +214,6 @@
   }
   .subscribe__content {
     flex-basis: calc((100% - 32px) / 2);
-    margin-bottom: 0;
   }
   .subscribe__media {
     flex-basis: calc((100% - 32px) / 2);

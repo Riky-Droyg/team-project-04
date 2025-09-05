@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 .quality__container {
   display: flex;
@@ -56,15 +56,12 @@
   grid-template-columns: 1fr;
 }
 .quality__item {
-  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-.quality__item:last-child {
-  margin-bottom: 0px;
-}
+
 .quality__picture {
   margin-bottom: 32px;
 }

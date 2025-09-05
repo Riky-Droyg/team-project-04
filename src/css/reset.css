@@ -130,3 +130,11 @@ button {
   cursor: pointer;
 }
 /* #endregion */
+
+
+
+address {
+    display: block;
+    font-style: normal;
+    unicode-bidi: normal;
+}
