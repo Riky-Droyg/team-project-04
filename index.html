@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@300..700&display=swap"
     rel="stylesheet">
   <script type="module" crossorigin src="/team-project-04/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/team-project-04/assets/index-Bsv-FP7u.css">
+  <link rel="stylesheet" crossorigin href="/team-project-04/assets/index-DeUvRthJ.css">
 </head>
 
 <body>
@@ -222,36 +222,74 @@
 </footer>
 
   <div class="mobile-menu" data-menu>
-  <div class="container mobile-menu-container">
-    <div class="mobile-menu-wrapper">
-        <a href="../index.html" class="mobile-menu-logo-link">
-            <svg class="mobile-menu-logo" width="62" height="36">
-              <use href="../img/mobileMenu/icons-menu-modal.svg#company-logo"></use>
+  <div class="container mobile-menu__container">
+    <div class="mobile-menu__wrapper">
+        <a href="../index.html" class="mobile-menu__logo-link">
+            <svg class="mobile-menu__logo" width="62" height="36">
+              <use href="/team-project-04/assets/icons-menu-modal-BYdXyMEV.svg#company-logo"></use>
             </svg>
         </a>
-        <button type="button" class="mobile-menu-close" data-menu-close>
-          <svg class="mobile-menu-icon" width="12" height="12">
+        <button type="button" class="mobile-menu__close" data-menu-close>
+          <svg class="mobile-menu__icon" width="12" height="12">
             <use href="/team-project-04/assets/icons-menu-modal-BYdXyMEV.svg#icon-close-menu"></use>
           </svg>
         </button>
     </div>
-    <nav class="mobile-menu-nav">
-      <ul class="menu-nav-list">
-        <li class="menu-nav-item">
-          <a href="#" class="menu-nav-link">About us</a>
+    <nav class="mobile-menu__nav">
+      <ul class="menu__nav-list">
+        <li class="menu__nav-item">
+          <a href="#" class="menu__nav-link">About us</a>
         </li>
-        <li class="menu-nav-item">
-          <a href="#" class="menu-nav-link">Benefits</a>
+        <li class="menu__nav-item">
+          <a href="#" class="menu__nav-link">Benefits</a>
         </li>
-        <li class="menu-nav-item">
-          <a href="#" class="menu-nav-link">Gallery</a>
+        <li class="menu__nav-item">
+          <a href="#" class="menu__nav-link">Gallery</a>
         </li>
-        <li class="menu-nav-item">
-          <a href="#" class="menu-nav-link">Testimonial</a>
+        <li class="menu__nav-item">
+          <a href="#" class="menu__nav-link">Testimonial</a>
         </li>
-        <li class="menu-nav-item"><a href="#" class="menu-nav-link">Location</a></li>
+        <li class="menu__nav-item"><a href="#" class="menu__nav-link">Location</a></li>
       </ul>
     </nav>
+  </div>
+</div>
+
+  <div class="backdrop" data-modal>
+  <div class="modal">
+    <button type="button" class="modal__close-btn" data-modal-close>
+      <svg class="modal__close-icon" width="16" height="16">
+        <use href="/team-project-04/assets/icons-menu-modal-BYdXyMEV.svg#icon-close-menu"></use>
+      </svg>
+    </button>
+    <h2 class="modal__title">Welcome to the world of CoffeeJoy!</h2>
+    <p class="modal__descr">
+      Fresh brews, special offers, and cozy updates are coming your way.
+    </p>
+    <picture>
+      <source
+        media="(min-width: 1158px)"
+        srcset="/team-project-04/assets/modal-greeting-picture-min-BZFyfI3D.jpg 1x, /team-project-04/assets/modal-greeting-picture@2x-min-G2tF0DQZ.jpg 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/team-project-04/assets/modal-greeting-picture-min-BZFyfI3D.jpg 1x, /team-project-04/assets/modal-greeting-picture@2x-min-G2tF0DQZ.jpg 2x"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="/team-project-04/assets/modal-greeting-picture-mob-min-CRc_SDq6.jpg 1x, /team-project-04/assets/modal-greeting-picture-mob@2x-min-D4hqTWKn.jpg 2x"
+      />
+      <img
+        src="/team-project-04/assets/modal-greeting-picture-min-BZFyfI3D.jpg"
+        alt="composition of items on the table in coffeeShop: flower, letter, cup of coffee, napkin, crouisane"
+        width="644"
+        height="374"
+        class="modal__greeting-picture"
+      />
+    </picture>
+    <button type="button" class="modal__low-btn" data-modal-close-secondary>
+      Close
+    </button>
   </div>
 </div>
 
