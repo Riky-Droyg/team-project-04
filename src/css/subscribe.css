@@ -94,10 +94,9 @@
   border-color: #7f1c1c;
 } */
 
-.subscribe__input:not(:placeholder-shown):invalid ~ .subscribe__error {
+.subscribe__label:has(.subscribe__input:not(:placeholder-shown):invalid) + .subscribe__error{
   display: block;
   color: #7f1c1c;
-  border-color: #7f1c1c;
 }
 
 .subscribe__input:not(:placeholder-shown):invalid {
@@ -163,7 +162,7 @@
   line-height: 150%;
   text-align: left;
   color: #0b0803;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 
 .subscribe__image {
