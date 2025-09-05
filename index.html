@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@300..700&display=swap"
     rel="stylesheet">
   <script type="module" crossorigin src="/team-project-04/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/team-project-04/assets/index-Cm6HSY4l.css">
+  <link rel="stylesheet" crossorigin href="/team-project-04/assets/index-C71LjmrU.css">
 </head>
 
 <body>
@@ -68,213 +68,144 @@
 
   <main>
     <!-- Loads the specified .html file -->
-    
-
-<section class="hero">
- <div class="container hero__container">
-        <h1 class="hero__title">Savor the Essence of Specialty Coffee</h1>
-        <p class="hero__paragraph">At CoffeeJoy, we believe every cup tells a story. Join us in exploring the rich
-            flavors and aromas of our carefully
-            curated coffee selections.</p>
-        <a href="#" class="hero__btn">Learn More</a>
+    <section class="hero">
+    <div class="container">
+        <div class="hero__container ">
+            <h1 class="hero__title">Savor the Essence of Specialty Coffee</h1>
+            <p class="hero__paragraph">At CoffeeJoy, we believe every cup tells a story. Join us in exploring the rich
+                flavors and aromas of our carefully
+                curated coffee selections.</p>
+            <a href="#" class="hero__btn">Learn More</a>
+        </div>
     </div>
-
 </section>
-
-    <section class="welcome">
-  <div class="container welcome-container">
-    <div class="welcome-top">
-      <div class="welcome-left">
-        <p class="welcome-intro">Welcome</p>
-        <h2 class="welcome-title">Our Journey: Passion for Quality Coffee</h2>
+    <section class="welcome" id="welcome">
+  <div class="container welcome__container">
+    <div class="welcome__top">
+      <div class="welcome__col welcome__col--left">
+        <p class="welcome__intro">Welcome</p>
+        <h2 class="welcome__title">Our Journey: Passion for Quality Coffee</h2>
       </div>
-      <div class="welcome-right">
-        <p class="welcome-description">
+
+      <div class="welcome__col welcome__col--right">
+        <p class="welcome__description">
           At CoffeeJoy, we believe that every cup tells a story. Our mission is
           to bring you the finest coffee experiences, crafted with care and
           dedication. We are committed to sourcing high-quality beans and
           roasting them to perfection, ensuring each sip is a delight.
         </p>
-        <a href="./location.html" class="btn-find-location">
-          Find location
-          <svg width="20" height="20" class="find-location">
+        <a href="./location.html" class="welcome__cta">
+          <span class="welcome__cta-text">Find location</span>
+          <svg width="20" height="20" class="welcome__cta-icon" aria-hidden="true">
             <use href="/team-project-04/assets/Find%20location-BYC0BiK2.svg#icon-icon"></use>
           </svg>
         </a>
       </div>
     </div>
-    <div class="container-img welcome-image">
+
+    <div class="welcome__image">
       <picture>
-        <source
-          media="(min-width: 1158px)"
-          srcset="../img/welcome/welcome-desk-min.jpg 1x, ../img/welcome/welcome-desk@2x-min.jpg 2x"
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="../img/welcome/welcome-tab-min.jpg 1x, ../img/welcome/welcome-tab@2x-min.jpg 2x"
-        />
-        <source
-          media="(max-width: 767px)"
-          srcset="../img/welcome/welcome-mobile-min.jpg 1x, ../img/welcome/welcome-mobile@2x-min.jpg 2x"
-        />
-        <img
-          src="../img/welcome/welcome-desk-min.jpg"
-          width="1312"
-          alt="The barista brews coffee"
-          class="welcome-img"
-        />
+        <source media="(min-width: 1158px)" srcset="../img/welcome/welcome-desk-min.jpg 1x, ../img/welcome/welcome-desk@2x-min.jpg 2x" />
+        <source media="(min-width: 768px)" srcset="../img/welcome/welcome-tab-min.jpg 1x, ../img/welcome/welcome-tab@2x-min.jpg 2x" />
+        <source media="(max-width: 767px)" srcset="../img/welcome/welcome-mobile-min.jpg 1x, ../img/welcome/welcome-mobile@2x-min.jpg 2x" />
+        <img src="../img/welcome/welcome-desk-min.jpg" width="1312" alt="The barista brews coffee"
+          class="welcome__img" />
       </picture>
     </div>
   </div>
 </section>
+    <section class="quality" id="quality">
+  <div class="container quality__container">
+    <div class="quality__info">
+      <p class="quality__tagline">Quality</p>
+      <h2 class="quality__heading">Why CoffeeJoy Stands Out from the Rest</h2>
 
-    <section class="quality">
-  <div class="quality__container">
-    <p class="quality__tagline">Quality</p>
-    <h2 class="quality__heading">Why CoffeeJoy Stands Out from the Rest</h2>
+      <p class="quality__text">
+        At CoffeeJoy, we pride ourselves on delivering the freshest roasted
+        coffee, crafted with care by our skilled baristas. Our flexible
+        subscription plans ensure that your coffee experience is tailored to your
+        needs.
+      </p>
+    </div>
+    <div class="quality__gallery">
+      <ul class="quality__list">
+        <li class="quality__item">
+          <picture class="quality__picture">
+            <!-- Версия для десктопа -->
+            <source srcset="/team-project-04/assets/quality-desk-1-DtDVmTQv.webp 1x, /team-project-04/assets/quality-desk-1@2x-Ct34KhQw.webp 2x" media="(min-width: 1440px)" type="image/webp" />
+            <!-- Версия для планшета -->
+            <source srcset="/team-project-04/assets/quality-tabl-1-B_0NIL8K.webp 1x, /team-project-04/assets/quality-tabl-1@2x-AxC7FnZ5.webp 2x" media="(min-width: 768px)" type="image/webp" />
 
-    <p class="quality__text">
-      At CoffeeJoy, we pride ourselves on delivering the freshest roasted
-      coffee, crafted with care by our skilled baristas. Our flexible
-      subscription plans ensure that your coffee experience is tailored to your
-      needs.
-    </p>
-  </div>
-  <div class="quality__gallery">
-    <ul class="quality__list">
-      <li class="quality__item">
-        <picture class="quality__picture">
-          <!-- Версия для десктопа -->
-          <source
-            srcset="/team-project-04/assets/quality-desk-1-DtDVmTQv.webp 1x, /team-project-04/assets/quality-desk-1@2x-Ct34KhQw.webp 2x"
-            media="(min-width: 1158px)"
-            type="image/webp"
-          />
-          <!-- Версия для планшета -->
-          <source
-            srcset="/team-project-04/assets/quality-tabl-1-B_0NIL8K.webp 1x, /team-project-04/assets/quality-tabl-1@2x-AxC7FnZ5.webp 2x"
-            media="(min-width: 768px)"
-            type="image/webp"
-          />
+            <!-- Версия для мобильного -->
+            <source srcset="/team-project-04/assets/quality-mob-1-Ceoaj9sO.webp 1x, /team-project-04/assets/quality-mob-1@2x-D_nnVjBp.webp 2x" media="(max-width: 767px)" type="image/webp" />
+            <!-- Запасной вариант -->
+            <img class="quality__image" src="/team-project-04/assets/quality-desk-1-DtDVmTQv.webp" alt="Fresh-Roasted Coffee"
+              loading="lazy" decoding="async" width="1312" />
+          </picture>
+          <h3 class="quality__title">Fresh-Roasted Coffee for Every Taste</h3>
+          <p class="quality__description">
+            Savor the rich flavors of our expertly sourced beans.
+          </p>
+        </li>
+        <li class="quality__item">
+          <picture class="quality__picture">
+            <!-- Версия для десктопа -->
+            <source srcset="/team-project-04/assets/quality-desk-2-BmxAzx_p.webp 1x, /team-project-04/assets/quality-desk-2@2x-DvyeHmA-.webp 2x" media="(min-width: 1440px)" type="image/webp" />
 
-          <!-- Версия для мобильного -->
-          <source
-            srcset="/team-project-04/assets/quality-mob-1-Ceoaj9sO.webp 1x, /team-project-04/assets/quality-mob-1@2x-D_nnVjBp.webp 2x"
-            media="(max-width: 767px)"
-            type="image/webp"
-          />
-          <!-- Запасной вариант -->
-          <img
-            class="quality__image"
-            src="/team-project-04/assets/quality-desk-1-DtDVmTQv.webp"
-            alt="Fresh-Roasted Coffee"
-            loading="lazy"
-            decoding="async"
-            width="421"
-            height="240"
-          />
-        </picture>
-        <h3 class="quality__title">Fresh-Roasted Coffee for Every Taste</h3>
-        <p class="quality__description">
-          Savor the rich flavors of our expertly sourced beans.
-        </p>
-      </li>
-      <li class="quality__item">
-        <picture class="quality__picture">
-          <!-- Версия для десктопа -->
-          <source
-            srcset="/team-project-04/assets/quality-desk-2-BmxAzx_p.webp 1x, /team-project-04/assets/quality-desk-2@2x-DvyeHmA-.webp 2x"
-            media="(min-width: 1158px)"
-            type="image/webp"
-          />
+            <!-- Версия для планшета (от 768px) -->
 
-          <!-- Версия для планшета (от 768px) -->
+            <source srcset="/team-project-04/assets/quality-tabl-2-CYz7mvOq.webp 1x, /team-project-04/assets/quality-tabl-2@2x-guMU-pUW.webp 2x" media="(min-width: 768px)" type="image/webp" />
 
-          <source
-            srcset="/team-project-04/assets/quality-tabl-2-CYz7mvOq.webp 1x, /team-project-04/assets/quality-tabl-2@2x-guMU-pUW.webp 2x"
-            media="(min-width: 768px)"
-            type="image/webp"
-          />
+            <!-- Версия для мобильного (до 375px) -->
+            <source srcset="/team-project-04/assets/quality-mob-2-DDaMBPaM.webp 1x, /team-project-04/assets/quality-mob-2@2x-Dpuh7Tv9.webp 2x" media="(max-width: 375px)" type="image/webp" />
 
-          <!-- Версия для мобильного (до 375px) -->
-          <source
-            srcset="/team-project-04/assets/quality-mob-2-DDaMBPaM.webp 1x, /team-project-04/assets/quality-mob-2@2x-Dpuh7Tv9.webp 2x"
-            media="(max-width: 375px)"
-            type="image/webp"
-          />
+            <!--Запасной вариант (если <picture> не поддерживается) -->
+            <img class="quality__image" src="/team-project-04/assets/quality-desk-2-BmxAzx_p.webp" alt="Fresh-Roasted Coffee"
+              loading="lazy" decoding="async" width="1312" />
+          </picture>
+          <h3 class="quality__title">
+            Expert Baristas Crafting Your Perfect Brew
+          </h3>
+          <p class="quality__description">
+            Our baristas are passionate about coffee and skilled in their craft.
+          </p>
+        </li>
+        <li class="quality__item quality__item--wide">
+          <picture class="quality__picture">
+            <!-- Версия для десктопа -->
+            <source srcset="/team-project-04/assets/quality-desk-3-DNXpYs_a.webp 1x, /team-project-04/assets/quality-desk-3@2x-Bpscr9tD.webp 2x" media="(min-width: 1440px)" type="image/webp" />
 
-          <!--Запасной вариант (если <picture> не поддерживается) -->
-          <img
-            class="quality__image"
-            src="/team-project-04/assets/quality-desk-2-BmxAzx_p.webp"
-            alt="Fresh-Roasted Coffee"
-            loading="lazy"
-            decoding="async"
-            width="340"
-            height="194"
-          />
-        </picture>
-        <h3 class="quality__title">
-          Expert Baristas Crafting Your Perfect Brew
-        </h3>
-        <p class="quality__description">
-          Our baristas are passionate about coffee and skilled in their craft.
-        </p>
-      </li>
-      <li class="quality__item">
-        <picture class="quality__picture">
-          <!-- Версия для десктопа -->
-          <source
-            srcset="/team-project-04/assets/quality-desk-3-DNXpYs_a.webp 1x, /team-project-04/assets/quality-desk-3@2x-Bpscr9tD.webp 2x"
-            media="(min-width: 1158px)"
-            type="image/webp"
-          />
+            <!--Версия для планшета (от 768px) -->
+            <source srcset="/team-project-04/assets/quality-tabl-3-C3kXzMj7.webp 1x, /team-project-04/assets/quality-tabl-3@2x-BllVUORE.webp 2x" media="(min-width: 768px)" type="image/webp" />
+            <!-- Версия для мобильного (до 767px) -->
+            <source srcset="/team-project-04/assets/quality-mob-3-B3jOx4St.webp 1x, /team-project-04/assets/quality-mob-3@2x-fMwang_S.webp 2x" media="(max-width: 375px)" type="image/webp" />
 
-          <!--Версия для планшета (от 768px) -->
-          <source
-            srcset="/team-project-04/assets/quality-tabl-3-C3kXzMj7.webp 1x, /team-project-04/assets/quality-tabl-3@2x-BllVUORE.webp 2x"
-            media="(min-width: 768px)"
-            type="image/webp"
-          />
-          <!-- Версия для мобильного (до 767px) -->
-          <source
-            srcset="/team-project-04/assets/quality-mob-3-B3jOx4St.webp 1x, /team-project-04/assets/quality-mob-3@2x-fMwang_S.webp 2x"
-            media="(max-width: 375px)"
-            type="image/webp"
-          />
-
-          <!-- Запасной вариант (если <picture> не поддерживается) -->
-          <img
-            class="quality__image quality__tablet"
-            src="/team-project-04/assets/quality-desk-3-DNXpYs_a.webp"
-            alt="Fresh-Roasted Coffee"
-            loading="lazy"
-            decoding="async"
-            width="288"
-            height="164"
-          />
-        </picture>
-        <h3 class="quality__title quality__title--center">Cozy Atmosphere</h3>
-        <p class="quality__description quality__description--center">
-          We don't just serve coffee — we create a warm and welcoming space
-          where every cup feels like home.
-        </p>
-      </li>
-    </ul>
+            <!-- Запасной вариант (если <picture> не поддерживается) -->
+            <img class="quality__image" src="/team-project-04/assets/quality-desk-3-DNXpYs_a.webp" alt="Fresh-Roasted Coffee"
+              loading="lazy" decoding="async" width="1312" />
+          </picture>
+          <h3 class="quality__title quality__title--tablet">Cozy Atmosphere</h3>
+          <p class="quality__description quality__description--tablet">
+            We don't just serve coffee — we create a warm and welcoming space
+            where every cup feels like home.
+          </p>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
-
-    <section class="experience">
-  <div class="container">
-    <h2 class="experience-title">Coffee Moments</h2>
-    <p class="experience-text">
+    <section class="experience" id="experience">
+  <div class="experience__container container">
+    <h2 class="experience__title">Coffee Moments</h2>
+    <p class="experience__text">
       Experience the warmth and community of CoffeeJoy.
     </p>
-    <ul class="pictures-galerie">
-      <li class="pictures-list">
+
+    <ul class="experience__gallery">
+      <li class="experience__item">
         <picture>
           <source
-            media="(min-width: 1158px)"
+            media="(min-width: 1440px)"
             srcset="../img/experience/desktop/pic_desktop_1-min.jpg 1x, ../img/experience/desktop/pic_desktop_1@2x-min.jpg 2x"
           />
           <source
@@ -286,16 +217,17 @@
             srcset="../img/experience/mobile/pic_mobile_1-min.jpg 1x, ../img/experience/mobile/pic_mobile_1@2x-min.jpg 2x"
           />
           <img
-            class="pictures-item"
+            class="experience__image"
             src="../img/experience/desktop/pic_desktop_1-min.jpg"
             alt="Coffee Cup"
           />
         </picture>
       </li>
-      <li class="pictures-list">
+
+      <li class="experience__item">
         <picture>
           <source
-            media="(min-width: 1158px)"
+            media="(min-width: 1440px)"
             srcset="../img/experience/desktop/pic_desktop_2-min.jpg 1x, ../img/experience/desktop/pic_desktop_2@2x-min.jpg 2x"
           />
           <source
@@ -307,16 +239,17 @@
             srcset="../img/experience/mobile/pic_mobile_2-min.jpg 1x, ../img/experience/mobile/pic_mobile_2@2x-min.jpg 2x"
           />
           <img
-            class="pictures-item"
+            class="experience__image"
             src="../img/experience/desktop/pic_desktop_2-min.jpg"
             alt="Croissant"
           />
         </picture>
       </li>
-      <li class="pictures-list">
+
+      <li class="experience__item">
         <picture>
           <source
-            media="(min-width: 1158px)"
+            media="(min-width: 1440px)"
             srcset="../img/experience/desktop/pic_desktop_3-min.jpg 1x, ../img/experience/desktop/pic_desktop_3@2x-min.jpg 2x"
           />
           <source
@@ -328,16 +261,17 @@
             srcset="../img/experience/mobile/pic_mobile_3-min.jpg 1x, ../img/experience/mobile/pic_mobile_3@2x-min.jpg 2x"
           />
           <img
-            class="pictures-item"
+            class="experience__image"
             src="../img/experience/desktop/pic_desktop_3-min.jpg"
             alt="Book"
           />
         </picture>
       </li>
-      <li class="pictures-list">
+
+      <li class="experience__item">
         <picture>
           <source
-            media="(min-width: 1158px)"
+            media="(min-width: 1440px)"
             srcset="../img/experience/desktop/pic_desktop_4-min.jpg 1x, ../img/experience/desktop/pic_desktop_4@2x-min.jpg 2x"
           />
           <source
@@ -349,16 +283,17 @@
             srcset="../img/experience/mobile/pic_mobile_4-min.jpg 1x, ../img/experience/mobile/pic_mobile_4@2x-min.jpg 2x"
           />
           <img
-            class="pictures-item"
+            class="experience__image"
             src="../img/experience/desktop/pic_desktop_4-min.jpg"
             alt="Barista"
           />
         </picture>
       </li>
-      <li class="pictures-list">
+
+      <li class="experience__item">
         <picture>
           <source
-            media="(min-width: 1158px)"
+            media="(min-width: 1440px)"
             srcset="../img/experience/desktop/pic_desktop_5-min.jpg 1x, ../img/experience/desktop/pic_desktop_5@2x-min.jpg 2x"
           />
           <source
@@ -370,16 +305,17 @@
             srcset="../img/experience/mobile/pic_mobile_5-min.jpg 1x, ../img/experience/mobile/pic_mobile_5@2x-min.jpg 2x"
           />
           <img
-            class="pictures-item"
+            class="experience__image"
             src="../img/experience/desktop/pic_desktop_5-min.jpg"
             alt="Cafe"
           />
         </picture>
       </li>
-      <li class="pictures-list">
+
+      <li class="experience__item">
         <picture>
           <source
-            media="(min-width: 1158px)"
+            media="(min-width: 1440px)"
             srcset="../img/experience/desktop/pic_desktop_6-min.jpg 1x, ../img/experience/desktop/pic_desktop_6@2x-min.jpg 2x"
           />
           <source
@@ -391,16 +327,17 @@
             srcset="../img/experience/mobile/pic_mobile_6-min.jpg 1x, ../img/experience/mobile/pic_mobile_6@2x-min.jpg 2x"
           />
           <img
-            class="pictures-item"
+            class="experience__image"
             src="../img/experience/desktop/pic_desktop_6-min.jpg"
             alt="Nature-Coffee"
           />
         </picture>
       </li>
-      <li class="pictures-list">
+
+      <li class="experience__item experience__item--full">
         <picture>
           <source
-            media="(min-width: 1158px)"
+            media="(min-width: 1440px)"
             srcset="../img/experience/desktop/pic_desktop_7-min.jpg 1x, ../img/experience/desktop/pic_desktop_7@2x-min.jpg 2x"
           />
           <source
@@ -412,7 +349,7 @@
             srcset="../img/experience/mobile/pic_mobile_7-min.jpg 1x, ../img/experience/mobile/pic_mobile_7@2x-min.jpg 2x"
           />
           <img
-            class="pictures-item"
+            class="experience__image"
             src="../img/experience/desktop/pic_desktop_7-min.jpg"
             alt="Coffee to go"
           />
@@ -423,426 +360,336 @@
 </section>
 
     <section class="subscribe">
-  <div class="container">
-    <div class="form-text">
-      <h2 class="subscribe-title">Join Our Coffee Community</h2>
-      <p class="subscribe-text">
-        Experience the joy of coffee delivered right to your door. Sign up
-        today!
+  <div class="subscribe__container container">
+    <div class="subscribe__content">
+      <h2 class="subscribe__title">Join Our Coffee Community</h2>
+      <p class="subscribe__text">
+        Experience the joy of coffee delivered right to your door. Sign up today!
       </p>
-      <form class="email-form" name="email" autocomplete="off">
-        <label class="email-label">
-          <input
-            class="email-input"
-            type="email"
-            name="username"
-            placeholder="Your E-mail Here"
-            autofocus
-            required
-          />
-          <p class="text-invalid">Error Text</p>
+
+      <form class="subscribe__form" name="email" autocomplete="off">
+        <label class="subscribe__label">
+          <input class="subscribe__input" type="email" name="username" placeholder="Your E-mail Here"
+            required />
+          <p class="subscribe__error">Error Text</p>
         </label>
-        <button class="subscribe-button" type="submit">
+
+        <button class="subscribe__button" type="submit" data-modal-open>
           Subscribe
-          <div class="svg-place">
-            <svg class="icon-svg" width="12.17" height="11.42">
+          <span class="subscribe__icon-wrap" aria-hidden="true">
+            <svg class="subscribe__icon" width="12.17" height="11.42">
               <use href="../img/subscribe/icons.svg#icon-arrow"></use>
             </svg>
-          </div>
+          </span>
         </button>
       </form>
-      <p class="subscribe-by_clicking">
+
+      <p class="subscribe__disclaimer">
         By clicking Get Started, you agree to our Terms and Conditions.
       </p>
     </div>
-    <div class="picture-div">
+
+    <div class="subscribe__media">
       <picture>
-        <source
-          media="(min-width: 1158px)"
-          srcset="../img/subscribe/desktop/pic_subscribe_desktop-min.jpg 1x, ../img/subscribe/desktop/pic_subscribe_desktop@2x-min.jpg 2x"
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="../img/subscribe/tablet/pic_subscribe_tablet-min.jpg 1x, ../img/subscribe/tablet/pic_subscribe_tablet@2x-min.jpg 2x"
-        />
-        <source
-          media="(max-width: 767px)"
-          srcset="../img/subscribe/mobile/pic_subscribe_mobile-min.jpg 1x, ../img/subscribe/mobile/pic_subscribe_mobile@2x-min.jpg 2x"
-        />
-        <img
-          class="pictures-item"
-          src="../img/subscribe/desktop/pic_subscribe_desktop-min.jpg"
-          alt="Subscribe"
-        />
+        <source media="(min-width: 1440px)" srcset="../img/subscribe/desktop/pic_subscribe_desktop-min.jpg 1x, ../img/subscribe/desktop/pic_subscribe_desktop@2x-min.jpg 2x" />
+        <source media="(min-width: 768px)" srcset="../img/subscribe/tablet/pic_subscribe_tablet-min.jpg 1x, ../img/subscribe/tablet/pic_subscribe_tablet@2x-min.jpg 2x" />
+        <source media="(max-width: 767px)" srcset="../img/subscribe/mobile/pic_subscribe_mobile-min.jpg 1x, ../img/subscribe/mobile/pic_subscribe_mobile@2x-min.jpg 2x" />
+        <img class="subscribe__image" src="../img/subscribe/desktop/pic_subscribe_desktop-min.jpg" alt="Subscribe" />
       </picture>
     </div>
   </div>
 </section>
+    <section class="testimonials" id="testimonials">
+  <div class="testimonials__container container">
+    <h2 class="testimonials__title">What our visitors say</h2>
 
-     <section class="testimonials">
-      <div class="container">
-        <h2 class="testimonials-title">What our visitors say</h2>
-        <ul class="testimonials-card-list">
-          <li class="testimonials-card-point">
-            <ul class="testimonials-stars-list">
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg icon-star-svg-off" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              
-            </ul>
-            <p class="testimonials-quote">
-              "Every cup feels like a warm hug! I’m addicted to their seasonal
-              flavors!"
-            </p>
-            <p class="testimonials-visitor-name">Name Surname </p>
+    <ul class="testimonials__list">
+      <li class="testimonials__card">
+        <ul class="testimonials__stars">
+          <li class="testimonials__star">
+            <svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg>
           </li>
-          <li class="testimonials-card-point">
-            <ul class="testimonials-stars-list">
-             <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg icon-star-svg-off" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-            </ul>
-            <p class="testimonials-quote">
-              "CoffeeJoy is my go-to place for a perfect cup of coffee! The
-              ambiance is so inviting, and the baristas are always friendly."
-            </p>
-            <p class="testimonials-visitor-name">Alice Johnson</p>
+          <li class="testimonials__star">
+            <svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg>
           </li>
-          <li class="testimonials-card-point">
-            <ul class="testimonials-stars-list">
-            <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-            </ul>
-            <p class="testimonials-quote">
-              "I love the variety of blends offered at CoffeeJoy. Every visit
-              feels like a new experience!"
-            </p>
-            <p class="testimonials-visitor-name">Michael Smith</p>
+          <li class="testimonials__star">
+            <svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg>
           </li>
-          <li class="testimonials-card-point">
-            <ul class="testimonials-stars-list">
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point ">
-                <svg class="icon-star-svg icon-star-svg-off" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg icon-star-svg-off" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-            </ul>
-            <p class="testimonials-quote">
-              "The pastries are to die for! I can’t resist pairing them with my
-              favorite latte. Highly recommend this spot!"
-            </p>
-            <p class="testimonials-visitor-name">Emily Davis</p>
+          <li class="testimonials__star">
+            <svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg>
           </li>
-          <li class="testimonials-card-point">
-            <ul class="testimonials-stars-list">
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point ">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-            </ul>
-            <p class="testimonials-quote">
-              "A cozy little gem! CoffeeJoy has the best cold brew in town. I
-              come here every weekend!"ot!"
-            </p>
-            <p class="testimonials-visitor-name">James Brown</p>
-          </li>
-          <li class="testimonials-card-point">
-            <ul class="testimonials-stars-list">
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point ">
-                <svg class="icon-star-svg icon-star-svg-off" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg icon-star-svg-off" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-            </ul>
-            <p class="testimonials-quote">
-              "The atmosphere is perfect for working or relaxing with friends.
-              Their Wi-Fi is fast too!"
-            </p>
-            <p class="testimonials-visitor-name">Sarah Wilson</p>
-          </li>
-          <li class="testimonials-card-point">
-            <ul class="testimonials-stars-list">
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point ">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg icon-star-svg-off" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-            </ul>
-            <p class="testimonials-quote">
-              "I’m addicted to their seasonal flavors! Each one is crafted with
-              such care and creativity."
-            </p>
-            <p class="testimonials-visitor-name">Chris Lee</p>
-          </li>
-          <li class="testimonials-card-point">
-            <ul class="testimonials-stars-list">
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point ">
-                <svg class="icon-star-svg" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-              <li class="testimonials-star-point">
-                <svg class="icon-star-svg icon-star-svg-off" width="20" height="20">
-                  <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
-                </svg>
-              </li>
-            </ul>
-            <p class="testimonials-quote">
-              "I appreciate how they source their coffee beans sustainably. It's
-              great to support such an ethical business!"
-            </p>
-            <p class="testimonials-visitor-name">Patricia Taylor</p>
+          <li class="testimonials__star">
+            <svg class="testimonials__star-icon testimonials__star-icon--off" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg>
           </li>
         </ul>
-      </div>
-    </section>
-  </body>
-</html>
-    <section class="location">
-  <div class="container location-container">
-    <div class="text-container-location">
-        <p class="first-paragraph-location">Find</p>
-    <h2 class="tittle-location">Location</h2>
-    <p class="second-paragraph-location">Visit us at our cozy coffee shop!</p>
-
-    <ul class="location-list">
-      <li class="location-list-item">
-        <div class="location-svg-container">
-          <svg class="location-svg-list-item" width="28" height="22">
-            <use href="data:image/svg+xml,%3csvg%20width='28'%20height='22'%20viewBox='0%200%2028%2022'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M24.6665%200.111328H3.33317C1.8625%200.111328%200.666504%201.30733%200.666504%202.77799V18.778C0.666504%2020.2487%201.8625%2021.4447%203.33317%2021.4447H24.6665C26.1372%2021.4447%2027.3332%2020.2487%2027.3332%2018.778V2.77799C27.3332%201.30733%2026.1372%200.111328%2024.6665%200.111328ZM24.6665%202.77799V3.45933L13.9998%2011.7567L3.33317%203.46066V2.77799H24.6665ZM3.33317%2018.778V6.83666L13.1812%2014.4967C13.4146%2014.6801%2013.7029%2014.7797%2013.9998%2014.7797C14.2967%2014.7797%2014.585%2014.6801%2014.8185%2014.4967L24.6665%206.83666L24.6692%2018.778H3.33317Z'%20fill='%230B0803'/%3e%3c/svg%3e"></use>
-          </svg>
-        </div>
-        <p class="paragraph-list-item-location">Email</p>
-        <a class="location-list-item-links" href="mailto:hello@coffeejoy.com"
-          >hello@coffeejoy.com</a
-        >
-      </li>
-
-      <li class="location-list-item">
-        <div class="location-svg-container">
-          <svg class="location-svg-list-item" width="26" height="27">
-            <use href="data:image/svg+xml,%3csvg%20width='26'%20height='26'%20viewBox='0%200%2026%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.6099%2014.1686C19.4862%2014.0447%2019.3393%2013.9464%2019.1775%2013.8793C19.0158%2013.8122%2018.8424%2013.7777%2018.6673%2013.7777C18.4922%2013.7777%2018.3188%2013.8122%2018.157%2013.8793C17.9953%2013.9464%2017.8483%2014.0447%2017.7246%2014.1686L15.5993%2016.2939C14.6139%2016.0006%2012.7753%2015.3339%2011.6099%2014.1686C10.4446%2013.0033%209.77794%2011.1646%209.48461%2010.1793L11.6099%208.05394C11.7339%207.93022%2011.8322%207.78328%2011.8993%207.62153C11.9663%207.45977%2012.0009%207.28638%2012.0009%207.11127C12.0009%206.93616%2011.9663%206.76277%2011.8993%206.60101C11.8322%206.43926%2011.7339%206.29232%2011.6099%206.1686L6.27661%200.835271C6.15289%200.711343%206.00595%200.613026%205.8442%200.545945C5.68245%200.478864%205.50905%200.444336%205.33394%200.444336C5.15883%200.444336%204.98544%200.478864%204.82368%200.545945C4.66193%200.613026%204.51499%200.711343%204.39127%200.835271L0.775275%204.45127C0.268608%204.95794%20-0.0167256%205.65394%20-0.00605893%206.3646C0.0246077%208.26327%200.527275%2014.8579%205.72461%2020.0553C10.9219%2025.2526%2017.5166%2025.7539%2019.4166%2025.7859H19.4539C20.1579%2025.7859%2020.8233%2025.5086%2021.3273%2025.0046L24.9433%2021.3886C25.0672%2021.2649%2025.1655%2021.1179%2025.2326%2020.9562C25.2997%2020.7944%2025.3342%2020.621%2025.3342%2020.4459C25.3342%2020.2708%2025.2997%2020.0974%2025.2326%2019.9357C25.1655%2019.7739%2025.0672%2019.627%2024.9433%2019.5033L19.6099%2014.1686ZM19.4406%2023.1179C17.7766%2023.0899%2012.0833%2022.6433%207.60994%2018.1686C3.12194%2013.6806%202.68727%207.96727%202.66061%206.3366L5.33394%203.66327L8.78194%207.11127L7.05794%208.83527C6.90122%208.99187%206.786%209.18505%206.72268%209.39736C6.65936%209.60967%206.64994%209.83441%206.69527%2010.0513C6.72727%2010.2046%207.50994%2013.8406%209.72327%2016.0539C11.9366%2018.2673%2015.5726%2019.0499%2015.7259%2019.0819C15.9427%2019.1285%2016.1676%2019.1199%2016.3801%2019.0567C16.5926%2018.9936%2016.7858%2018.878%2016.9419%2018.7206L18.6673%2016.9966L22.1153%2020.4446L19.4406%2023.1179Z'%20fill='%230B0803'/%3e%3c/svg%3e"></use>
-          </svg>
-        </div>
-        <p class="paragraph-list-item-location">Phone</p>
-        <a class="location-list-item-links" href="tel:+15551235321"
-          >+1 (555) 123-5321</a
-        >
-      </li>
-
-      <li class="location-list-item location-list-item-last">
-        <div class="location-svg-container">
-          <svg class="location-svg-list-item" width="22" height="28">
-            <use href="data:image/svg+xml,%3csvg%20width='22'%20height='28'%20viewBox='0%200%2022%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.0002%2016.4443C13.9416%2016.4443%2016.3336%2014.0523%2016.3336%2011.111C16.3336%208.16967%2013.9416%205.77767%2011.0002%205.77767C8.05891%205.77767%205.66691%208.16967%205.66691%2011.111C5.66691%2014.0523%208.05891%2016.4443%2011.0002%2016.4443ZM11.0002%208.44434C12.4709%208.44434%2013.6669%209.64034%2013.6669%2011.111C13.6669%2012.5817%2012.4709%2013.7777%2011.0002%2013.7777C9.52958%2013.7777%208.33358%2012.5817%208.33358%2011.111C8.33358%209.64034%209.52958%208.44434%2011.0002%208.44434Z'%20fill='%230B0803'/%3e%3cpath%20d='M10.2269%2026.863C10.4526%2027.0242%2010.723%2027.1108%2011.0003%2027.1108C11.2776%2027.1108%2011.5479%2027.0242%2011.7736%2026.863C12.1789%2026.5763%2021.7056%2019.6977%2021.6669%2011.111C21.6669%205.22967%2016.8816%200.444336%2011.0003%200.444336C5.11895%200.444336%200.333613%205.22967%200.333613%2011.1043C0.294947%2019.6977%209.82161%2026.5763%2010.2269%2026.863ZM11.0003%203.111C15.4123%203.111%2019.0003%206.699%2019.0003%2011.1177C19.0283%2017.035%2013.1496%2022.3483%2011.0003%2024.091C8.85228%2022.347%202.97228%2017.0323%203.00028%2011.111C3.00028%206.699%206.58828%203.111%2011.0003%203.111Z'%20fill='%230B0803'/%3e%3c/svg%3e"></use>
-          </svg>
-        </div>
-        <p class="paragraph-list-item-location">Office</p>
-        <p class="address-street-location">
-          263 Newbury St, Boston, MA 02116, USA
+        <p class="testimonials__quote">
+          "Every cup feels like a warm hug! I’m addicted to their seasonal
+          flavors!"
         </p>
-        <a
-          class="address-street-link-location"
-          href="https://maps.app.goo.gl/iNAgJr8nV9kWSHoLA"
-          target="_blank"
-          >Get Directions
-          <div class="container-address-icon">
-            <svg class="svg-location-address" width="8" height="13">
-              <use href="data:image/svg+xml,%3csvg%20width='8'%20height='12'%20viewBox='0%200%208%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.70697%2011.7275L7.41397%206.02048L1.70697%200.313477L0.292969%201.72748L4.58597%206.02048L0.292969%2010.3135L1.70697%2011.7275Z'%20fill='%230B0803'/%3e%3c/svg%3e"></use>
-            </svg>
-          </div>
-        </a>
+        <p class="testimonials__author">Name Surname</p>
+      </li>
+
+      <li class="testimonials__card">
+        <ul class="testimonials__stars">
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon testimonials__star-icon--off" width="20"
+              height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+        </ul>
+        <p class="testimonials__quote">
+          "CoffeeJoy is my go-to place for a perfect cup of coffee! The
+          ambiance is so inviting, and the baristas are always friendly."
+        </p>
+        <p class="testimonials__author">Alice Johnson</p>
+      </li>
+
+      <li class="testimonials__card">
+        <ul class="testimonials__stars">
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+        </ul>
+        <p class="testimonials__quote">
+          "I love the variety of blends offered at CoffeeJoy. Every visit
+          feels like a new experience!"
+        </p>
+        <p class="testimonials__author">Michael Smith</p>
+      </li>
+
+      <li class="testimonials__card">
+        <ul class="testimonials__stars">
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon testimonials__star-icon--off" width="20"
+              height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon testimonials__star-icon--off" width="20"
+              height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+        </ul>
+        <p class="testimonials__quote">
+          "The pastries are to die for! I can’t resist pairing them with my
+          favorite latte. Highly recommend this spot!"
+        </p>
+        <p class="testimonials__author">Emily Davis</p>
+      </li>
+
+      <li class="testimonials__card">
+        <ul class="testimonials__stars">
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+        </ul>
+        <p class="testimonials__quote">
+          "A cozy little gem! CoffeeJoy has the best cold brew in town. I
+          come here every weekend!"ot!"
+        </p>
+        <p class="testimonials__author">James Brown</p>
+      </li>
+
+      <li class="testimonials__card">
+        <ul class="testimonials__stars">
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon testimonials__star-icon--off" width="20"
+              height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon testimonials__star-icon--off" width="20"
+              height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+        </ul>
+        <p class="testimonials__quote">
+          "The atmosphere is perfect for working or relaxing with friends.
+          Their Wi-Fi is fast too!"
+        </p>
+        <p class="testimonials__author">Sarah Wilson</p>
+      </li>
+
+      <li class="testimonials__card">
+        <ul class="testimonials__stars">
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon testimonials__star-icon--off" width="20"
+              height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+        </ul>
+        <p class="testimonials__quote">
+          "I’m addicted to their seasonal flavors! Each one is crafted with
+          such care and creativity."
+        </p>
+        <p class="testimonials__author">Chris Lee</p>
+      </li>
+
+      <li class="testimonials__card">
+        <ul class="testimonials__stars">
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon" width="20" height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+          <li class="testimonials__star"><svg class="testimonials__star-icon testimonials__star-icon--off" width="20"
+              height="20">
+              <use href="/team-project-04/assets/icons-ChLDiawU.svg#icon-star"></use>
+            </svg></li>
+        </ul>
+        <p class="testimonials__quote">
+          "I appreciate how they source their coffee beans sustainably. It's
+          great to support such an ethical business!"
+        </p>
+        <p class="testimonials__author">Patricia Taylor</p>
       </li>
     </ul>
-    </div>
-    
+  </div>
+</section>
+    <section class="location" id="location">
+  <div class="location__container container">
+    <div class="location__intro">
+      <p class="location__eyebrow">Find</p>
+      <h2 class="location__title">Location</h2>
+      <p class="location__subtitle">Visit us at our cozy coffee shop!</p>
 
-    <div class="map-container">
+      <ul class="location__list">
+        <li class="location__item">
+          <div class="location__icon-wrap">
+            <svg class="location__icon" width="28" height="22">
+              <use href="data:image/svg+xml,%3csvg%20width='28'%20height='22'%20viewBox='0%200%2028%2022'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M24.6665%200.111328H3.33317C1.8625%200.111328%200.666504%201.30733%200.666504%202.77799V18.778C0.666504%2020.2487%201.8625%2021.4447%203.33317%2021.4447H24.6665C26.1372%2021.4447%2027.3332%2020.2487%2027.3332%2018.778V2.77799C27.3332%201.30733%2026.1372%200.111328%2024.6665%200.111328ZM24.6665%202.77799V3.45933L13.9998%2011.7567L3.33317%203.46066V2.77799H24.6665ZM3.33317%2018.778V6.83666L13.1812%2014.4967C13.4146%2014.6801%2013.7029%2014.7797%2013.9998%2014.7797C14.2967%2014.7797%2014.585%2014.6801%2014.8185%2014.4967L24.6665%206.83666L24.6692%2018.778H3.33317Z'%20fill='%230B0803'/%3e%3c/svg%3e"></use>
+            </svg>
+          </div>
+          <p class="location__label">Email</p>
+          <a class="location__link" href="mailto:hello@coffeejoy.com">hello@coffeejoy.com</a>
+        </li>
+
+        <li class="location__item">
+          <div class="location__icon-wrap">
+            <svg class="location__icon" width="26" height="27">
+              <use href="data:image/svg+xml,%3csvg%20width='26'%20height='26'%20viewBox='0%200%2026%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.6099%2014.1686C19.4862%2014.0447%2019.3393%2013.9464%2019.1775%2013.8793C19.0158%2013.8122%2018.8424%2013.7777%2018.6673%2013.7777C18.4922%2013.7777%2018.3188%2013.8122%2018.157%2013.8793C17.9953%2013.9464%2017.8483%2014.0447%2017.7246%2014.1686L15.5993%2016.2939C14.6139%2016.0006%2012.7753%2015.3339%2011.6099%2014.1686C10.4446%2013.0033%209.77794%2011.1646%209.48461%2010.1793L11.6099%208.05394C11.7339%207.93022%2011.8322%207.78328%2011.8993%207.62153C11.9663%207.45977%2012.0009%207.28638%2012.0009%207.11127C12.0009%206.93616%2011.9663%206.76277%2011.8993%206.60101C11.8322%206.43926%2011.7339%206.29232%2011.6099%206.1686L6.27661%200.835271C6.15289%200.711343%206.00595%200.613026%205.8442%200.545945C5.68245%200.478864%205.50905%200.444336%205.33394%200.444336C5.15883%200.444336%204.98544%200.478864%204.82368%200.545945C4.66193%200.613026%204.51499%200.711343%204.39127%200.835271L0.775275%204.45127C0.268608%204.95794%20-0.0167256%205.65394%20-0.00605893%206.3646C0.0246077%208.26327%200.527275%2014.8579%205.72461%2020.0553C10.9219%2025.2526%2017.5166%2025.7539%2019.4166%2025.7859H19.4539C20.1579%2025.7859%2020.8233%2025.5086%2021.3273%2025.0046L24.9433%2021.3886C25.0672%2021.2649%2025.1655%2021.1179%2025.2326%2020.9562C25.2997%2020.7944%2025.3342%2020.621%2025.3342%2020.4459C25.3342%2020.2708%2025.2997%2020.0974%2025.2326%2019.9357C25.1655%2019.7739%2025.0672%2019.627%2024.9433%2019.5033L19.6099%2014.1686ZM19.4406%2023.1179C17.7766%2023.0899%2012.0833%2022.6433%207.60994%2018.1686C3.12194%2013.6806%202.68727%207.96727%202.66061%206.3366L5.33394%203.66327L8.78194%207.11127L7.05794%208.83527C6.90122%208.99187%206.786%209.18505%206.72268%209.39736C6.65936%209.60967%206.64994%209.83441%206.69527%2010.0513C6.72727%2010.2046%207.50994%2013.8406%209.72327%2016.0539C11.9366%2018.2673%2015.5726%2019.0499%2015.7259%2019.0819C15.9427%2019.1285%2016.1676%2019.1199%2016.3801%2019.0567C16.5926%2018.9936%2016.7858%2018.878%2016.9419%2018.7206L18.6673%2016.9966L22.1153%2020.4446L19.4406%2023.1179Z'%20fill='%230B0803'/%3e%3c/svg%3e"></use>
+            </svg>
+          </div>
+          <p class="location__label">Phone</p>
+          <a class="location__link" href="tel:+15551235321">+1 (555) 123-5321</a>
+        </li>
+
+        <li class="location__item location__item--last">
+          <div class="location__icon-wrap">
+            <svg class="location__icon" width="22" height="28">
+              <use href="data:image/svg+xml,%3csvg%20width='22'%20height='28'%20viewBox='0%200%2022%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.0002%2016.4443C13.9416%2016.4443%2016.3336%2014.0523%2016.3336%2011.111C16.3336%208.16967%2013.9416%205.77767%2011.0002%205.77767C8.05891%205.77767%205.66691%208.16967%205.66691%2011.111C5.66691%2014.0523%208.05891%2016.4443%2011.0002%2016.4443ZM11.0002%208.44434C12.4709%208.44434%2013.6669%209.64034%2013.6669%2011.111C13.6669%2012.5817%2012.4709%2013.7777%2011.0002%2013.7777C9.52958%2013.7777%208.33358%2012.5817%208.33358%2011.111C8.33358%209.64034%209.52958%208.44434%2011.0002%208.44434Z'%20fill='%230B0803'/%3e%3cpath%20d='M10.2269%2026.863C10.4526%2027.0242%2010.723%2027.1108%2011.0003%2027.1108C11.2776%2027.1108%2011.5479%2027.0242%2011.7736%2026.863C12.1789%2026.5763%2021.7056%2019.6977%2021.6669%2011.111C21.6669%205.22967%2016.8816%200.444336%2011.0003%200.444336C5.11895%200.444336%200.333613%205.22967%200.333613%2011.1043C0.294947%2019.6977%209.82161%2026.5763%2010.2269%2026.863ZM11.0003%203.111C15.4123%203.111%2019.0003%206.699%2019.0003%2011.1177C19.0283%2017.035%2013.1496%2022.3483%2011.0003%2024.091C8.85228%2022.347%202.97228%2017.0323%203.00028%2011.111C3.00028%206.699%206.58828%203.111%2011.0003%203.111Z'%20fill='%230B0803'/%3e%3c/svg%3e"></use>
+            </svg>
+          </div>
+          <p class="location__label">Office</p>
+          <address class="location__address">263 Newbury St, Boston, MA 02116, USA</address>
+          <a class="location__address-link" href="https://maps.app.goo.gl/iNAgJr8nV9kWSHoLA" target="_blank">Get
+            Directions
+            <span class="location__address-icon-wrap" aria-hidden="true">
+              <svg class="location__address-icon" width="8" height="13">
+                <use href="data:image/svg+xml,%3csvg%20width='8'%20height='12'%20viewBox='0%200%208%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.70697%2011.7275L7.41397%206.02048L1.70697%200.313477L0.292969%201.72748L4.58597%206.02048L0.292969%2010.3135L1.70697%2011.7275Z'%20fill='%230B0803'/%3e%3c/svg%3e"></use>
+              </svg>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="location__map">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.5003198553833!2d-71.08377672364519!3d42.34847197119609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a0fcaa91a7f%3A0xcda3f74a93f6bff7!2s263%20Newbury%20St%2C%20Boston%2C%20MA%2002116%2C%20USA!5e0!3m2!1sen!2sus!4v1693476345678!5m2!1sen!2sus"
-        class="location-map"
-        allowfullscreen=""
-        loading="lazy"
-      >
-      </iframe>
+        class="location__map-frame" allowfullscreen loading="lazy"></iframe>
     </div>
   </div>
 </section>
-
   </main>
 
   <footer class="footer">
-  <div class="container">
+  <div class="footer__container container">
     <div class="footer__top">
-      <div class="footer__top-left">
+      <div class="footer__brand">
         <a class="footer__logo-link" href="#hero" aria-label="Головна сторінка">
-          <svg class="icon__footer-logo" role="img" aria-hidden="true">
-            <title>Logo-Coffee-Joy</title>
+          <svg class="footer__logo" aria-hidden="true">
             <use href="/team-project-04/assets/icons-footer-BW0i-oHW.svg#icon-footer-logo"></use>
           </svg>
         </a>
+
         <ul class="footer__socials">
           <li class="footer__social-item">
             <a
@@ -852,8 +699,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="icon__footer-facebook" role="img" aria-hidden="true">
-                <title>Facebook</title>
+              <svg class="footer__icon footer__icon--facebook" aria-hidden="true">
                 <use href="/team-project-04/assets/icons-footer-BW0i-oHW.svg#icon-facebook"></use>
               </svg>
             </a>
@@ -866,8 +712,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="icon__footer-instagram" role="img" aria-hidden="true">
-                <title>Instagram</title>
+              <svg class="footer__icon footer__icon--instagram" aria-hidden="true">
                 <use href="/team-project-04/assets/icons-footer-BW0i-oHW.svg#icon-instagram"></use>
               </svg>
             </a>
@@ -880,34 +725,25 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="icon__footer-x" role="img" aria-hidden="true">
-                <title>X</title>
+              <svg class="footer__icon footer__icon--x" aria-hidden="true">
                 <use href="/team-project-04/assets/icons-footer-BW0i-oHW.svg#icon-x"></use>
               </svg>
             </a>
           </li>
         </ul>
       </div>
-      <nav class="footer__nav">
+
+      <nav class="footer__nav" aria-label="Footer">
         <ul class="footer__menu">
-          <li class="footer__menu-item">
-            <a href="#about-us" class="footer__menu-link">About us</a>
-          </li>
-          <li class="footer__menu-item">
-            <a href="#benefits" class="footer__menu-link">Benefits</a>
-          </li>
-          <li class="footer__menu-item">
-            <a href="#gallery" class="footer__menu-link">Gallery</a>
-          </li>
-          <li class="footer__menu-item">
-            <a href="#testimonial" class="footer__menu-link">Testimonial</a>
-          </li>
-          <li class="footer__menu-item">
-            <a href="#location" class="footer__menu-link">Location</a>
-          </li>
+          <li class="footer__menu-item"><a href="#about-us" class="footer__menu-link">About us</a></li>
+          <li class="footer__menu-item"><a href="#benefits" class="footer__menu-link">Benefits</a></li>
+          <li class="footer__menu-item"><a href="#gallery" class="footer__menu-link">Gallery</a></li>
+          <li class="footer__menu-item"><a href="#testimonial" class="footer__menu-link">Testimonial</a></li>
+          <li class="footer__menu-item"><a href="#location" class="footer__menu-link">Location</a></li>
         </ul>
       </nav>
     </div>
+
     <div class="footer__bottom">
       <p class="footer__license">© 2025 CoffeeJoy. All rights reserved.</p>
     </div>
