@@ -2,21 +2,19 @@
   background-color: #e0cbb4;
 }
 
-.location-container {
+/* container */
+.location__container {
   max-width: 375px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding: 64px 16px;
 }
 
-.text-container-location {
+/* intro (текстова колонка) */
+.location__intro {
   max-width: 288px;
-  height: 618px;
   margin-bottom: 32px;
 }
 
-.first-paragraph-location {
+.location__eyebrow {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -24,7 +22,7 @@
   margin-bottom: 16px;
 }
 
-.tittle-location {
+.location__title {
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
   font-size: 36px;
@@ -34,8 +32,8 @@
   margin-bottom: 24px;
 }
 
-.second-paragraph-location {
-  word-wrap: break-word;
+.location__subtitle {
+  overflow-wrap: break-word;
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -44,7 +42,21 @@
   margin-bottom: 40px;
 }
 
-.location-svg-container {
+/* list */
+.location__list {
+  margin-bottom: 32px;
+}
+
+.location__item {
+  margin-bottom: 40px;
+}
+
+.location__item--last {
+  margin-bottom: 0;
+}
+
+/* item content */
+.location__icon-wrap {
   width: 32px;
   height: 32px;
   display: flex;
@@ -53,20 +65,22 @@
   margin-bottom: 16px;
 }
 
-.paragraph-list-item-location {
+.location__icon {
+  display: block;
+}
+
+.location__label {
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: -0.01em;
   color: #0b0803;
-  font-style: normal;
   margin-bottom: 8px;
 }
 
-.location-list-item-links {
+.location__link {
   font-family: 'Quicksand', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -75,136 +89,120 @@
   color: #0b0803;
 }
 
-.location-list-item {
-  margin-bottom: 40px;
-}
-
-.location-list-item-last {
-  margin-bottom: 0;
-}
-
-.address-street-location {
-  font-style: normal;
+.location__address {
   font-size: 16px;
   line-height: 1.5;
   color: #0b0803;
   margin-bottom: 16px;
 }
 
-.address-street-link-location {
+.location__address-link {
   font-family: 'Quicksand', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #0b0803;
   display: flex;
   align-items: center;
-  justify-content: baseline;
   gap: 8px;
 }
 
-.container-address-icon {
+.location__address-icon-wrap {
+  display: inline-flex;
   width: 24px;
   height: 24px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.location-list {
-  margin-bottom: 32px;
+.location__address-icon {
+  display: block;
 }
 
-.map-container {
-  width: 288px;
+/* map */
+.location__map {
+  /* width: 288px; */
   height: 307px;
-
   border-radius: 40px;
   overflow: hidden;
 }
 
-.location-map {
+.location__map-frame {
   display: block;
   border: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
+/* Tablet */
 @media (min-width: 768px) {
-  .location-container {
+  .location__container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
-  .location-list {
+
+  .location__list {
     display: flex;
     gap: 40px;
   }
 
-  .location-list-item {
+  .location__item {
     margin-bottom: 0;
     width: 33.3%;
     height: 108px;
   }
 
-  .location-list-item-last {
+  .location__item--last {
     height: 172px;
   }
 
-  .text-container-location {
+  .location__intro {
     min-width: 704px;
-    height: 346px;
   }
 
-  .map-container {
+  .location__map {
     width: 704px;
     height: 377px;
   }
 }
 
-@media (min-width: 1158px) {
-  .location-container {
+/* Desktop */
+@media (min-width: 1440px) {
+  .location__container {
     max-width: 1440px;
     padding: 64px;
+    display: flex;
+    gap: 24px;
   }
 
-  .tittle-location {
+  .location__title {
     font-size: 48px;
   }
 
-  .text-container-location {
+  .location__intro {
     min-height: 633px;
+    margin-bottom: 0;
+    min-width: 419px;
   }
 
-  .location-list {
+  .location__list {
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-bottom: 0;
   }
 
-  .location-list-item {
+  .location__item {
     width: 419px;
   }
 
-  .location-list-item-last {
+  .location__item--last {
     height: 148px;
   }
 
-  .map-container {
-    display: block;
+  .location__map {
     width: 869px;
     height: 697px;
-  }
-
-  .location-container {
-    display: flex;
-    gap: 24px;
-  }
-
-  .text-container-location {
-    margin-bottom: 0;
-    min-width: 419px;
   }
 }

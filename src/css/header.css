@@ -1,6 +1,5 @@
 .header {
   background-color: #e0cbb4;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header__logo-icon {
   padding: 0;
@@ -96,10 +95,10 @@
 }
 
 /* -------------------- */
-/* Desktop: 1158px and up */
+/* Desktop: 1440px and up */
 /* -------------------- */
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
   .header__container {
     justify-content: space-between;
   }

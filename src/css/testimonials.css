@@ -1,14 +1,15 @@
-
-/* секція */
+/* Block: testimonials */
 .testimonials {
   background-color: #e0cbb4;
   padding-top: 64px;
   padding-bottom: 64px;
 }
-.testimonials .container {
+
+.testimonials__container {
   padding: 0 16px;
 }
-.testimonials-title {
+
+.testimonials__title {
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
   font-size: 36px;
@@ -17,42 +18,47 @@
   color: #0b0803;
   margin-bottom: 24px;
 }
-.testimonials-card-list {
+
+.testimonials__list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
 }
-.testimonials-card-point {
-  border: 1px solid rgba(11, 8, 3, 0.15);
 
+.testimonials__card {
+  border: 1px solid rgba(11, 8, 3, 0.15);
   border-radius: 32px;
   background-color: #c29d84;
   padding: 32px;
   width: 100%;
   height: auto;
-}
-.testimonials-stars-list {
   display: flex;
-  flex-direction: row;
-  gap: 4px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  margin-bottom: 24px;
+  flex-direction: column;
 }
-.icon-star-svg.icon-star-svg-off {
+
+.testimonials__stars {
+  display: flex;
+  gap: 4px;
+  list-style: none;
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+
+.testimonials__star-icon--off {
   fill: none;
   stroke: #0b0803;
 }
-.testimonials-quote {
+
+.testimonials__quote {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   color: #0b0803;
 }
-.testimonials-visitor-name {
+
+.testimonials__author {
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -60,79 +66,62 @@
   color: #0b0803;
   margin-top: auto;
 }
+
+/* Tablet */
 @media screen and (min-width: 768px) {
-  /* .testimonials {
-    background-color: #e0cbb4;
-    padding-top: 64px;
-    padding-bottom: 64px;
-  } */
-  .testimonials .container {
+  .testimonials__container {
     padding: 0 32px;
   }
-  /* .testimonials-title {
-  } */
-  .testimonials-card-list {
+
+  .testimonials__list {
     justify-content: space-between;
-    display: flex;
     align-items: stretch;
   }
-  .testimonials-card-point {
-    flex-basis: calc((100% - 24px) / 2);
-  }
-  /* .icon-star-svg.icon-star-svg-off {
-  fill: none;
-  stroke: #0b0803;
-} */
-  .testimonials-card-point {
-    /* width: 340px;
-    height: auto; */
-    max-height: 304px;
-    display: flex;
-    flex-direction: column;
 
-    border: 1px solid rgba(11, 8, 3, 0.15);
-    border-radius: 32px;
-    padding: 32px;
+  .testimonials__card {
+    /* варіант з фіксованою шириною як у твоєму коді */
     width: 340px;
     min-height: 253px;
+    max-height: 304px;
     height: 100%;
   }
-  .testimonials-quote {
+
+  .testimonials__quote {
     margin-bottom: 0;
     max-height: 151px;
     overflow-y: auto;
     overflow-x: hidden;
   }
-  .testimonials-visitor-name {
+
+  .testimonials__author {
     overflow-x: auto;
     overflow-y: hidden;
   }
 }
-@media screen and (min-width: 1158px) {
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
   .testimonials {
-    min-width: 1158px;
+    min-width: 1440px;
   }
-  .testimonials .container {
+
+  .testimonials__container {
     padding: 0 64px;
   }
-  .testimonials-title {
+
+  .testimonials__title {
     max-width: 400px;
     font-size: 48px;
   }
-  .testimonials-card-list {
+
+  .testimonials__list {
     justify-content: center;
   }
-  .testimonials-card-point {
+
+  .testimonials__card {
     width: 310px;
     min-height: 303px;
+    /* збережено твою формулу flex-basis */
     flex-basis: calc((100% - 24px * 3) / 4);
-  }
-  .testimonials-quote {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #0b0803;
-    margin-bottom: 0;
   }
 }

@@ -21,7 +21,7 @@
 }
 
 /* desktop */
-@media (min-width: 1158px) {
+@media (min-width: 1440px) {
   .container {
     max-width: 1440px;
     padding: 0 64px; /* внутрішні поля зліва/справа */

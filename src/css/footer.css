@@ -1,6 +1,5 @@
-/* Покращення читабельності */
-
-footer {
+/* Block: footer */
+.footer {
   font-family: 'Quicksand', sans-serif;
   color: #0b0803;
   background: #b58869;
@@ -8,7 +7,11 @@ footer {
   padding-bottom: 24px;
 }
 
-/* плашка футера */
+.footer__container { /* утилітний .container залишається поруч */
+  /* якщо потрібно — сюди можна додати власні відступи */
+}
+
+/* Верхня панель */
 .footer__top {
   background: #c29d84;
   display: flex;
@@ -27,14 +30,12 @@ footer {
   max-width: 100%;
 }
 
-@media (min-width: 1158px) {
-  .footer__top {
-    flex-direction: row;
-  }
+@media (min-width: 1440px) {
+  .footer__top { flex-direction: row; }
 }
 
-/* порядок лого+соціальні мережі */
-.footer__top-left {
+/* Лого + соцмережі */
+.footer__brand {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,85 +44,65 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .footer__top-left {
-    flex-direction: row;
-  }
+  .footer__brand { flex-direction: row; }
 }
 
-/* лого футера*/
-.icon__footer-logo {
+.footer__logo-link { display: inline-flex; }
+
+.footer__logo {
   width: 147px;
   height: 85px;
 }
 
-@media (min-width: 375px) {
-  .icon__footer-logo {
-    width: 147px;
-    height: 85px;
-  }
-}
-
 @media (min-width: 768px) {
-  .icon__footer-logo {
+  .footer__logo {
     width: 64px;
     height: 36px;
   }
 }
 
-/* порядок соціальних мереж */
+/* Соцмережі */
 .footer__socials {
   display: flex;
   align-items: center;
   gap: 12px;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .footer__social-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  color: #0b0803;                /* керуємо кольором ікон через currentColor */
+  transition: color .25s cubic-bezier(0.4, 0, 0.2, 1), opacity .25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon__footer-facebook {
-  width: 28px;
-  height: 27px;
+.footer__social-link:hover,
+.footer__social-link:focus {
+  color: #6f4e37;
+  opacity: .9;
 }
 
-.icon__footer-instagram {
-  width: 24px;
-  height: 25px;
+.footer__icon {
+  display: block;
+  fill: currentColor;
 }
 
-.icon__footer-x {
-  width: 24px;
-  height: 23px;
-}
+/* розміри ікон (mobile) */
+.footer__icon--facebook { width: 28px; height: 27px; }
+.footer__icon--instagram { width: 24px; height: 25px; }
+.footer__icon--x { width: 24px; height: 23px; }
 
+/* розміри ікон (tablet+) */
 @media (min-width: 768px) {
-  .icon__footer-facebook {
-    width: 20px;
-    height: 21px;
-  }
-
-  .icon__footer-instagram {
-    width: 18px;
-    height: 19px;
-  }
-
-  .icon__footer-x {
-    width: 18px;
-    height: 17px;
-  }
+  .footer__icon--facebook { width: 20px; height: 21px; }
+  .footer__icon--instagram { width: 18px; height: 19px; }
+  .footer__icon--x { width: 18px; height: 17px; }
 }
 
-.icon__footer-facebook:hover,
-.icon__footer-instagram:hover,
-.icon__footer-x:hover {
-  fill: #6f4e37;
-}
-
-/* навігація футера */
+/* Навігація */
 .footer__menu {
   display: flex;
   align-items: center;
@@ -129,23 +110,21 @@ footer {
   gap: 32px;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 @media (min-width: 768px) {
-  .footer__menu {
-    flex-direction: row;
-  }
+  .footer__menu { flex-direction: row; }
 }
 
 .footer__menu-link {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 1.5;
   color: #0b0803;
   opacity: 1;
-  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity .25s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
 }
 
 .footer__menu-link:hover,
@@ -154,7 +133,7 @@ footer {
   opacity: 0.5;
 }
 
-/* інформація про захист прав споживача */
+/* Нижній рядок */
 .footer__bottom {
   display: flex;
   justify-content: center;
@@ -164,8 +143,6 @@ footer {
 .footer__license {
   font-weight: 400;
   font-size: 14px;
-
-  /* line-height: 21px; */
   line-height: 1.5;
   color: #0b0803;
   margin: 0;

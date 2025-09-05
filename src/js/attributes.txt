@@ -1,2 +1,0 @@
-додати атрибут data-modal-open для кнопки subscribe в секції Subscribe для відкриття модального вікна
-додати атрибут data-menu-open для кнопки типу burger в Header для відкриття мобільного меню
