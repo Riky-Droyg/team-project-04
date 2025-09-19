@@ -1,5 +1,8 @@
 .header {
+  position: fixed;
+  width: 100%;
   background-color: #e0cbb4;
+  box-shadow: 0 24px 32px -20px rgba(0, 0, 0, 0.28);
 }
 .header__logo-icon {
   padding: 0;
