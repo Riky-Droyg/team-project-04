@@ -5,7 +5,7 @@
   align-items: center;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/hero/heromob.webp);
+    url(../img/hero/hero-mobile.webp);
   min-width: 320px;
   min-height: 644px;
   background-size: cover;
@@ -16,7 +16,7 @@
 @media (min-resolution: 2x) {
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../img/hero/heromob@2.webp);
+      url(../img/hero/hero-mobile@2.webp);
   }
 }
 
@@ -74,7 +74,7 @@
 @media screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../img/hero/herotab.webp);
+      url(../img/hero/hero-table.webp);
     justify-content: flex-start;
     min-height: 900px;
   }
@@ -82,7 +82,7 @@
   @media (min-resolution: 2x) {
     .hero {
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../img/hero/herotab@2.webp);
+        url(../img/hero/hero-table@2.webp);
     }
   }
   .hero__container {
@@ -93,13 +93,13 @@
 @media screen and (min-width: 1440px) {
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../img/hero/herodesk.webp);
+      url(../img/hero/hero-desktop.webp);
   }
 
   @media (min-resolution: 2x) {
     .hero {
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../img/hero/herodesk@2.webp);
+        url(../img/hero/hero-desktop@2.webp);
     }
   }
 
