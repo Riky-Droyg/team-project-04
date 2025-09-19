@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/hero/heromob.jpg);
   min-width: 320px;
   min-height: 644px;
@@ -15,7 +15,7 @@
 
 @media (min-resolution: 2x) {
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(../img/hero/heromob@2.jpg);
   }
 }
@@ -73,7 +73,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(../img/hero/herotab.jpg);
     justify-content: flex-start;
     min-height: 900px;
@@ -81,7 +81,7 @@
 
   @media (min-resolution: 2x) {
     .hero {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(../img/hero/herotab@2.jpg);
     }
   }
@@ -92,13 +92,13 @@
 
 @media screen and (min-width: 1440px) {
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(../img/hero/herodesk.jpg);
   }
 
   @media (min-resolution: 2x) {
     .hero {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(../img/hero/herodesk@2.jpg);
     }
   }
